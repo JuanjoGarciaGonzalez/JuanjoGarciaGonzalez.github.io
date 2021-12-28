@@ -1,0 +1,89 @@
+{
+    "proyectos": [
+
+      {
+        "nombre": "Web Turismo Espacial",
+        "descripcion": {
+            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Trata de una web de turismo espacial con información de los planetas que podrías visitar o con quién irías.",
+            "dos": "Esta realizado con HTML, CSS y JS. Ajax para cargar información de forma asíncrona y dinámica y media queries para adaptar a todas las pantallas."
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/FrontendMentor-SpaceTourismWebsite",
+        "website": "#"
+      },
+
+      {
+        "nombre": "Agenda clientes",
+        "descripcion": {
+            "uno": "Proyecto creado en clase con PHP",
+            "dos": "Consta de una agenda de clientes que puedes añadir, modificar y eliminar"
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-php'></i>"],
+        "video": "assets/Videos/Video_Práctica_RDS_Adrián_García_González.mp4",
+        "github": "https://github.com/",
+        "website": "#"
+      },
+
+      {
+        "nombre": "Calculadora",
+        "descripcion": {
+            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
+            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/",
+        "website": "#"
+      },
+
+      {
+        "nombre": "Calculadora",
+        "descripcion": {
+            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
+            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/",
+        "website": "#"
+      },
+
+      {
+        "nombre": "Calculadora",
+        "descripcion": {
+            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
+            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/",
+        "website": "#"
+      },
+
+      {
+        "nombre": "Calculadora",
+        "descripcion": {
+            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
+            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/",
+        "website": "#"
+      },
+
+      {
+        "nombre": "Calculadora",
+        "descripcion": {
+            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
+            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/",
+        "website": "#"
+      }
+
+    ]
+}
