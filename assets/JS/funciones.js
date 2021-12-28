@@ -97,7 +97,7 @@ const tecnologias_proyecto = $(".tecnologias-proyecto")
 var objeto_json
 
 $.ajax({
-    url: "assets/js/proyectos.json",
+    url: "assets/JS/proyectos.json",
     dataType: "json",
     success: primeraPeticion
 })
