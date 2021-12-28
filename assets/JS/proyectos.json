@@ -10,7 +10,7 @@
         "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
         "video": "assets/Videos/webturismoespacial.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/FrontendMentor-SpaceTourismWebsite",
-        "website": "#"
+        "website": "https://spacetourismwebsite.herokuapp.com/"
       },
 
       {
