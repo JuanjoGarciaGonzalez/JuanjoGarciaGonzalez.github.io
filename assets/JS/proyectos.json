@@ -74,7 +74,7 @@
       },
 
       {
-        "nombre": "Calculadora",
+        "nombre": "Landing Page",
         "descripcion": {
             "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
             "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
