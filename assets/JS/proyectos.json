@@ -2,87 +2,87 @@
     "proyectos": [
 
       {
-        "nombre": "Web Turismo Espacial",
+        "nombre": "PC SERVICES",
         "descripcion": {
-            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Trata de una web de turismo espacial con información de los planetas que podrías visitar o con quién irías.",
-            "dos": "Esta realizado con HTML, CSS y JS. Ajax para cargar información de forma asíncrona y dinámica y media queries para adaptar a todas las pantallas."
+            "uno": "Simula una landing page de una empresa de Desarrollo Web. Proyecto front-end realizado en clase a partir de una plantilla de Bootstrap Studio.",
+            "dos": "Personalización, modales, tooltips y validación del formulario. También es responsive."
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-bootstrap'></i>"],
+        "video": "assets/Videos/PCSERVICES.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/PCSERVICES",
+        "website": "https://PCSERVICES.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Calculadora",
+        "descripcion": {
+            "uno": "Calculadora realizada con JavaScript.",
+            "dos": "Usé CSS Grid y Flexbox para posicionar las teclas y JavaScript para la funcionalidad y la función tema oscuro/claro. No es responsive."
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
+        "video": "assets/Videos/calculadora.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/calculadora",
+        "website": "https://calculadora.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Space Tourism Website",
+        "descripcion": {
+            "uno": "Web de turismo espacial que consta de varias páginas dónde podrás informarte si quieres viajar al espacio.",
+            "dos": "Proyecto realizado por mi cuenta. Incorpora Ajax con un archivo JSON para mostrar información de forma asíncrona. Además es responsive con media queries."
         },
         "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
         "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/FrontendMentor-SpaceTourismWebsite",
-        "website": "https://spacetourismwebsite.herokuapp.com/"
+        "github": "https://github.com/JuanjoGarciaGonzalez/webturismoespacial",
+        "website": "https://webturismoespacial.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Porfolio",
+        "descripcion": {
+            "uno": "Web en la que estás ahora mismo. Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
+            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax, JQuery y PHP. Es responsive."
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-php'></i>"],
+        "video": "assets/Videos/porfolio.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
+        "website": "https://juanjogarciagonzalezporfolio.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Pasajeros-Vuelos",
+        "descripcion": {
+            "uno": "Web Laravel para crear tickets de vuelos. Puedes crear o eliminar pasajeros/vuelos, y además crear o eliminar tickets.",
+            "dos": "Proyecto para practicar Laravel, relaciones y el modelo vista controlador. Además la interfaz está realizada con Bootstrap."
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-bootstrap'></i>", "<i class='fab fa-laravel'></i>"],
+        "video": "assets/Videos/pasajerosvuelos.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/pasajerosvuelos",
+        "website": "https://pasajerosvuelos.herokuapp.com/"
       },
 
       {
         "nombre": "Agenda clientes",
         "descripcion": {
-            "uno": "Proyecto creado en clase con PHP",
-            "dos": "Consta de una agenda de clientes que puedes añadir, modificar y eliminar"
+            "uno": "Proyecto PHP realizado en clase. Necesitarás registrarte y hacer login para tener una sesión. Una vez dentro de la app, tendrás una agenda donde podras ver, editar, actualizar y eliminar contactos.",
+            "dos": "Realizado con CSS nativo (y un navbar de Bootstrap) y PHP. Además de SQL y BBDD."
+        },
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-php'></i>" ],
+        "video": "assets/Videos/agendaclientes.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
+        "website": "https://agendaclientes.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Q&A Harry Potter",
+        "descripcion": {
+            "uno": "Juego para Desktop de preguntas y respuestas con temática HP. Podrás elegir un avatar y un usuario, responder a unas preguntas con música asociada a cada película y un ranking de puntuación.",
+            "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
         },
         "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-php'></i>"],
-        "video": "assets/Videos/Video_Práctica_RDS_Adrián_García_González.mp4",
-        "github": "https://github.com/",
-        "website": "#"
-      },
-
-      {
-        "nombre": "Calculadora",
-        "descripcion": {
-            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
-            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
-        },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
-        "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/",
-        "website": "#"
-      },
-
-      {
-        "nombre": "Calculadora",
-        "descripcion": {
-            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
-            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
-        },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
-        "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/",
-        "website": "#"
-      },
-
-      {
-        "nombre": "Calculadora",
-        "descripcion": {
-            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
-            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
-        },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
-        "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/",
-        "website": "#"
-      },
-
-      {
-        "nombre": "Calculadora",
-        "descripcion": {
-            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
-            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
-        },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
-        "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/",
-        "website": "#"
-      },
-
-      {
-        "nombre": "Landing Page",
-        "descripcion": {
-            "uno": "Proyecto diseñado por Frontend Mentor y desarrollado por mí. Calculadora con JS nativo",
-            "dos": "Usé CSS Grid y Flexbox para el posicionamiento de las teclas"
-        },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
-        "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/",
-        "website": "#"
+        "video": "assets/Videos/q&aharrypotter.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/q&aharrypotter",
+        "website": "https://q&aharrypotter.herokuapp.com/"
       }
 
     ]

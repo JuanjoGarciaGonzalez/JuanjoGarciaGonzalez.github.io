@@ -14,9 +14,9 @@ if($email) {
     $texto = "¡Email enviado correctamente!";
     header("refresh: 3; url = ../../index.php");
 }else {
-    $class = "error";
+    $class = "error_email";
     $texto = "¡Error enviando el email!";
-    header("refresh: 3; url = ../../index.html");
+    header("refresh: 3; url = ../../index.php");
 }
 
 echo "<div class='" . $class . "'" . ">" . $mensaje . "</div>";

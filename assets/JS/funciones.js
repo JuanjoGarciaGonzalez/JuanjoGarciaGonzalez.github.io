@@ -154,4 +154,46 @@ function segundaPeticion() {
     items_menu.click(segundaPeticion)
 }
 
+// VALIDACIÓN FORMULARIO
+$.validator.addMethod("formatoEmail", function (value, element) {
+    var pattern = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
+    return this.optional(element) || pattern.test(value);
+});
+
+$(".formulario").validate({
+    onkeyup: false,
+    rules: {
+        email: {
+            required: true,
+            formatoEmail: true,
+            email: true,
+        },
+        asunto: {
+            required: true,
+            maxlength: 50,
+        },
+        mensaje: {
+            required: true,
+        }
+    },
+    messages: {
+        email: {
+            required: "El email es requerido",
+            formatoEmail: "Formato de email no válido",
+            email: "Formato de email no válido",
+        },
+        asunto: {
+            required: "El asunto es requerido",
+            maxlength: "El asunto no puede exceder los 32 caracteres",
+        },
+        mensaje: {
+            required: "El mensaje es requerido",
+        }
+    },
+
+    errorElement : 'span'
+});
+
+// AUTOPLAY DEL VIDEO LAA PRIMERA VEZ
+// video.play()
 

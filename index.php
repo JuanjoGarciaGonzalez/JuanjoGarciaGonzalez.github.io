@@ -12,6 +12,8 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- VALIDATE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
     <!-- ESTILOS PROPIOS -->
     <link rel="stylesheet" href="assets/CSS/estilos.css">
     <!-- FUNCIONES PROPIAS -->
@@ -183,7 +185,7 @@
                 <div class="proyecto-contenido">
                     <div class="proyecto-contenido-imagen">
                         <div class="multimedia-proyecto">
-                            <iframe src="" frameborder="0" class="video" sandbox></iframe>
+                            <video width="100%" height="auto" class="video" autoplay loop muted src="assets/Videos/PCSERVICES.webm"></video>
                         </div>
                         
                         <div class="links-proyecto">
@@ -215,12 +217,21 @@
         <section class="contacto" id="contacto">
             <div style="height: 150px; overflow: hidden;" class="sbg-contacto-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #112236;"></path></svg></div>
             <h2>Contacto</h2>
-            <p>Hazme llegar un email con tu pregunta o sugerencia</p>
+            <p>Hazme llegar un email a juadrigarciagonzalez@gmail.com</p>
             <form action="assets/PHP/email.php" class="formulario" method="post">
-                <input type="email" name="email" placeholder="Dirección de correo electrónico" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de correo electrónico'">
-                <input type="text" name="asunto" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Asunto'">
-                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'"></textarea>
-                <input type="submit" value="Enviar">
+                <div class="campo">
+                    <input type="email" name="email" placeholder="Dirección de correo electrónico" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de correo electrónico'">
+                </div>
+                <div class="campo">
+                    <input type="text" name="asunto" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Asunto'"> 
+                </div>
+                <div class="campo">
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" ></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Enviar">
+                </div>
+                
             </form>
 
             <!-- <div class="correcto">
