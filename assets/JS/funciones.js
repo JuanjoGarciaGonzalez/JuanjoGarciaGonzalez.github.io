@@ -202,12 +202,12 @@ const contenido = $(".contenido")
 hamburguesa.click(desplegarMenu)
 cerrar_menu.click(ocultarMenu)
 if($(window).width() <= "768") {
-
+    contenido.click(ocultarMenu)
+    links.forEach(link => {
+        link.addEventListener("click", ocultarMenu)
+    });
 }
-contenido.click(ocultarMenu)
-links.forEach(link => {
-    link.addEventListener("click", ocultarMenu)
-});
+
 function desplegarMenu() {
     if($(window).width() <= 768) {
         menu.css("left", "0")

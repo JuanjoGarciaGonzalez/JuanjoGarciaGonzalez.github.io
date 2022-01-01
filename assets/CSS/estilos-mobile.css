@@ -20,6 +20,24 @@
     .ubicacion span {
         font-size: .8rem;
     }
+
+    .svg-quien-soy-1, .svg-habilidades-1, .svg-proyectos-1, .svg-contacto-1{
+        /* position: absolute;
+        top: 0;
+        right: -50px;
+        left: -50px;
+        margin: 0; */
+        height: 90px !important;
+    }
+    
+    .svg-quien-soy-2, .svg-habilidades-2, .svg-proyectos-2, .svg-contacto-2 {
+        /* position: absolute;
+        bottom: 0;
+        left: -50px;
+        right: -50px;
+        margin: 0; */
+        height: 90px !important;
+    }
     
     .quien-soy h1 {
         margin-top: 50%;
@@ -73,8 +91,8 @@
     }
 
     .texto-habilidades {
-        width: 200px;
-        margin-left: -100px;
+        width: 150px;
+        margin-left: -75px;
     }
 
     .texto-habilidades p {
@@ -86,7 +104,7 @@
     }
 
     .proyecto {
-        height: 70%;
+        height: 70vh;
         margin-top: 20px;
     }
     
@@ -96,7 +114,7 @@
     }
 
     .proyecto-menu ul li {
-        font-size: .3rem;
+        font-size: .5rem;
         padding: 0 5px;
     }
 

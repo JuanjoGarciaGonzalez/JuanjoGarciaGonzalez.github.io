@@ -143,16 +143,16 @@
 
 /* CONTENIDO */
 .contenido {
-    background-color: var(--color3);
-    height: 100vh;
+    /* height: 100vh; */
     width: 88%;
     margin-left: 12%;
+    overflow: hidden;
 }
 
 /* QUIEN SOY */
 .quien-soy {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     border-top: 2px solid var(--color1);
     border-right: 2px solid var(--color1);
     border-bottom: 2px solid var(--color1);
@@ -375,7 +375,7 @@ strong {
 /* PROYECTOS */
 .proyectos {
     width: 100%;
-    height: 130%;
+    height: 130vh;
     border-top: 2px solid var(--color1);
     border-right: 2px solid var(--color1);
     border-bottom: 2px solid var(--color1);
@@ -572,7 +572,6 @@ strong {
 /* CONTACTO */
 .contacto {
     width: 100%;
-    height: auto;
     border-top: 2px solid var(--color1);
     border-right: 2px solid var(--color1);
     border-bottom: 2px solid var(--color1);
