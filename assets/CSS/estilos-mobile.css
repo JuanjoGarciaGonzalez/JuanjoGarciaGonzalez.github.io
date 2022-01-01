@@ -4,6 +4,18 @@
         left: -50%;
     }
 
+    .ubicacion {
+        top: 3%;
+    }
+    
+    .hamburguesa {
+        top: 3%;
+    }
+
+    .cerrar_menu {
+        top: 3%;
+    }
+
     .hamburguesa i {
         font-size: 1.5rem;
     }
@@ -87,7 +99,7 @@
     }
     
     .imagen-grid {
-        width: 60px;
+        width: 90px;
     }
 
     .texto-habilidades {
@@ -130,7 +142,7 @@
         overflow: hidden;
         flex-basis: 60%;
         width: 100%;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: .5rem;
     }
 
@@ -215,6 +227,6 @@
     }
     
     .flecha-subir i {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
