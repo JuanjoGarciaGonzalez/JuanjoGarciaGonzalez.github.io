@@ -15,14 +15,11 @@
     <!-- VALIDATE -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
     <!-- ESTILOS PROPIOS -->
-    <link rel="stylesheet" href="assets/CSS/estilos.css">
+    <link rel="stylesheet" href="assets/CSS/estilos-desktop.css">
+    <link rel="stylesheet" href="assets/CSS/estilos-tablet.css">
+    <link rel="stylesheet" href="assets/CSS/estilos-mobile.css">
     <!-- FUNCIONES PROPIAS -->
     <script src="assets/JS/funciones.js" defer></script>
-    <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/Images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/Images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/Images/favicon-16x16.png">
-    <link rel="manifest" href="assets/Images/site.webmanifest">
 </head>
 <body>
     <!-- MENÚ -->
@@ -48,9 +45,20 @@
         <div class="rrss">
             <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/JuanjoGarciaGonzalez" title="Mi Github" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.twitter.com" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="cerrar_menu">
+            <i class="fas fa-times"></i>
         </div>
     </div>
+
+    <!-- MENÚ HAMBURGUESA -->
+    <div class="hamburguesa">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    
 
     <!-- CONTENIDO -->
     <main class="contenido">
@@ -69,9 +77,9 @@
                         <img src="assets/Images/perfil.png" alt="Foto de perfil">
                     </div>
                     <div class="texto-modal">
-                        <p style="color: #436280; background-color: #dbe4ed;">Vivo en Lasarte-Oria (San Sebastián) y he estudiado un certificado de profesionalidad de Desarrollo de Aplicaciones Web. He aprendido nociones medias de Frontend y Backend. Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de Administración de Sistemas dónde me adentré en el mundo de los ordenadores.</p>
+                        <p style="color: #436280; background-color: #dbe4ed;">Vivo en Lasarte-Oria (San Sebastián), tengo 22 años y he estudiado un certificado de profesionalidad de <strong>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</strong>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <strong>SISTEMAS MICROINFORMÁTICO Y REDES</strong> dónde me adentré en el mundo de los ordenadores.</p>
     
-                        <p style="color: #436280; background-color: #dbe4ed">Me gustaría trabajar de Desarrollador e ir aprendiendo poco a poco más en profundidad este mundo maravilloso y extenso.</p>
+                        <p style="color: #436280; background-color: #dbe4ed">Me gustaría conseguir mi primer trabajo de desarrollador web e ir aprendiendo poco a poco más en profundidad este mundo maravilloso y extenso.</p>
                     </div>
                 </div>
               </div>
@@ -105,7 +113,7 @@
                 </div>
 
                 <div class="imagen-grid" id="4">
-                    <img src="assets/Images/bootstrap.svg" alt="Logo Bootstrap">
+                    <img src="assets/Images/bootstrap.png" alt="Logo Bootstrap">
                     <div class="texto-habilidades">
                         <p>Uso esporádico para layouts simples o componentes.</p>
                     </div>
@@ -233,14 +241,20 @@
                 </div>
                 
             </form>
-
+            
+            
             <!-- <div class="correcto">
-                ¡Error enviando el email!
+                ¡Email enviado correctamente!
             </div> -->
         </section>
 
         <!-- FOOTER -->
         <footer class="footer">
+            <div class="rrss_footer">
+                <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/JuanjoGarciaGonzalez" title="Mi Github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
             <p>Realizado por Juanjo García Gonzalez &copy; Copyright <span class="contenedor-ano"></span></p>
         </footer>
 

@@ -1,0 +1,180 @@
+/* paleta de colores */
+:root {
+    --color1: #112236; /* menú */
+    --color2: #436280; /* hover menú */
+    --color3: #dbe4ed; /* tipografía y fondo*/
+    --color5: #c32530; /* botones y logo */
+}
+
+@media screen and (max-width: 1270px){
+    .logo i {
+        font-size: 1.3rem;
+    }
+
+    .logo .nombre {
+        font-size: 1.3rem;
+    }
+
+    .logo .apellido {
+        font-size: 1rem;
+    }
+
+    .navegacion ul li{
+        font-size: 1rem;
+    }
+
+    .rrss a i {
+        font-size: 1.5rem;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* MENÚ */
+    .menu {
+        width: 30%;
+        left: -30%;
+        z-index: 1;
+    }
+
+    .ubicacion {
+        right: 5%;
+        top: 5%;
+    }
+
+    .hamburguesa {
+        position: absolute;
+        top: 20px;
+        left: 5%;
+        top: 5%;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .hamburguesa i {
+        font-size: 2rem;
+        color: var(--color1);
+    }
+
+    .cerrar_menu {
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 15%;
+        top: 5%;
+        z-index: 2;
+        font-size: 2rem;
+        color: var(--color1);
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cerrar_menu i {
+        font-size: 2rem;
+        color: var(--color3);
+    }
+
+    /* CONTENIDO */
+    .contenido {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .quien-soy, .habilidades, .proyectos, .contacto {
+        border-left: 2px solid var(--color1);
+    }
+
+    .quien-soy h1 {
+        margin-top: 30%;
+        margin-left: 5%;
+        font-size: 3rem;
+    }
+
+    .quien-soy p {
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-bottom: 10px;
+    }
+    
+    .quien-soy a {
+        margin-left: 5%;
+    }
+
+    .texto-habilidades {
+        width: 250px;
+        margin-left: -125px;
+    }
+
+    .texto-habilidades p {
+        font-size: .8rem;
+    }
+
+    .proyecto {
+        height: 45%;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .6rem;
+        padding: 0 10px;
+    }
+
+    .links-proyecto a i {
+        font-size: 1rem;
+    }
+    
+    .links-proyecto a span {
+        font-size: .8rem;
+    }
+
+    .proyecto-contenido-descripcion h2 {
+        color: var(--color3);
+        font-size: 1.5rem;
+    }
+
+    .proyecto-contenido-descripcion p {
+        font-size: .8rem;
+    }
+    
+    .tecnologias-proyecto i {
+        font-size: 2rem;
+    }
+
+    .formulario {
+        width: 90%;
+        margin: 50px auto 20px auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: .5rem;
+        height: 15vh;
+    }
+
+    .rrss_footer {
+        height: auto;
+        width: 25%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .rrss_footer a i {
+        font-size: 1.6rem;
+        transition: color .15s ease-in-out;
+    }
+    
+    .rrss_footer a i:hover {
+        color: var(--color5);
+        transition: color .15s ease-in-out;
+    }
+
+}

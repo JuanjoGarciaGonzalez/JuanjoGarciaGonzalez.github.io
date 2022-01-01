@@ -10,19 +10,19 @@
         "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-bootstrap'></i>"],
         "video": "assets/Videos/PCSERVICES.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/PCSERVICES",
-        "website": "https://PCSERVICES.herokuapp.com/"
+        "website": "https://pcservices.herokuapp.com/"
       },
 
       {
         "nombre": "Calculadora",
         "descripcion": {
             "uno": "Calculadora realizada con JavaScript.",
-            "dos": "Usé CSS Grid y Flexbox para posicionar las teclas y JavaScript para la funcionalidad y la función tema oscuro/claro. No es responsive."
+            "dos": "Usé CSS Grid y Flexbox para posicionar las teclas y JavaScript para la funcionalidad y el tema oscuro/claro. No es responsive."
         },
         "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>"],
         "video": "assets/Videos/calculadora.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/calculadora",
-        "website": "https://calculadora.herokuapp.com/"
+        "website": "https://calculadora-juanjo.herokuapp.com/"
       },
 
       {
@@ -41,7 +41,7 @@
         "nombre": "Porfolio",
         "descripcion": {
             "uno": "Web en la que estás ahora mismo. Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
-            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax, JQuery y PHP. Es responsive."
+            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON), JQuery y PHP. Es responsive."
         },
         "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-php'></i>"],
         "video": "assets/Videos/porfolio.webm",
@@ -55,7 +55,7 @@
             "uno": "Web Laravel para crear tickets de vuelos. Puedes crear o eliminar pasajeros/vuelos, y además crear o eliminar tickets.",
             "dos": "Proyecto para practicar Laravel, relaciones y el modelo vista controlador. Además la interfaz está realizada con Bootstrap."
         },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-bootstrap'></i>", "<i class='fab fa-laravel'></i>"],
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-bootstrap'></i>", "<i class='fab fa-laravel'></i>", "<i class='fas fa-database'></i>"],
         "video": "assets/Videos/pasajerosvuelos.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/pasajerosvuelos",
         "website": "https://pasajerosvuelos.herokuapp.com/"
@@ -67,7 +67,7 @@
             "uno": "Proyecto PHP realizado en clase. Necesitarás registrarte y hacer login para tener una sesión. Una vez dentro de la app, tendrás una agenda donde podras ver, editar, actualizar y eliminar contactos.",
             "dos": "Realizado con CSS nativo (y un navbar de Bootstrap) y PHP. Además de SQL y BBDD."
         },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-php'></i>" ],
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-php'></i>", "<i class='fas fa-database'></i>"],
         "video": "assets/Videos/agendaclientes.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
         "website": "https://agendaclientes.herokuapp.com/"
@@ -79,10 +79,10 @@
             "uno": "Juego para Desktop de preguntas y respuestas con temática HP. Podrás elegir un avatar y un usuario, responder a unas preguntas con música asociada a cada película y un ranking de puntuación.",
             "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
         },
-        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-php'></i>"],
+        "iconos": ["<i class='fab fa-html5'></i>", "<i class='fab fa-css3-alt'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-php'></i>", "<i class='fas fa-database'></i>"],
         "video": "assets/Videos/q&aharrypotter.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/q&aharrypotter",
-        "website": "https://q&aharrypotter.herokuapp.com/"
+        "github": "https://github.com/JuanjoGarciaGonzalez/q-aharrypotter",
+        "website": "https://q-aharrypotter.herokuapp.com/"
       }
 
     ]

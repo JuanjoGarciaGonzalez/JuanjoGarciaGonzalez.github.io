@@ -194,6 +194,41 @@ $(".formulario").validate({
     errorElement : 'span'
 });
 
-// AUTOPLAY DEL VIDEO LAA PRIMERA VEZ
-// video.play()
+//DESPLEGAR MENÚ EN RESPONSIVE
+const hamburguesa = $(".hamburguesa")
+const menu = $(".menu")
+const cerrar_menu = $(".cerrar_menu")
+const contenido = $(".contenido")
+hamburguesa.click(desplegarMenu)
+cerrar_menu.click(ocultarMenu)
+if($(window).width() <= "768") {
+
+}
+contenido.click(ocultarMenu)
+links.forEach(link => {
+    link.addEventListener("click", ocultarMenu)
+});
+function desplegarMenu() {
+    if($(window).width() <= 768) {
+        menu.css("left", "0")
+        hamburguesa.css("display", "none")
+        cerrar_menu.css("display", "flex")
+        menu.css("transition", "all .3s ease")
+    }
+}
+function ocultarMenu() {
+    if($(window).width() <= 768) {
+        menu.css("left", "-30%")
+        hamburguesa.css("display", "flex")
+        cerrar_menu.css("display", "none")
+        menu.css("transition", "all .3s ease")
+    }
+    if($(window).width() <= 425) {
+        menu.css("left", "-50%")
+        hamburguesa.css("display", "flex")
+        cerrar_menu.css("display", "none")
+        menu.css("transition", "all .3s ease")
+    }
+
+}
 

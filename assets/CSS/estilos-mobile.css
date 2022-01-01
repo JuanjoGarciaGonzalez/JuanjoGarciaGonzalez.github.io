@@ -1,0 +1,202 @@
+@media screen and (max-width: 425px) {
+    .menu {
+        width: 50%;
+        left: -50%;
+    }
+
+    .hamburguesa i {
+        font-size: 1.5rem;
+    }
+
+    .cerrar_menu i {
+        font-size: 1.5rem;
+        color: var(--color3);
+    }
+
+    .ubicacion i {
+        font-size: 1.5rem;
+    }
+
+    .ubicacion span {
+        font-size: .8rem;
+    }
+    
+    .quien-soy h1 {
+        margin-top: 50%;
+        font-size: 2rem;
+    }
+
+    .quien-soy p {
+        font-size: .8rem;
+    }
+
+    .quien-soy a {
+        font-size: .8rem;
+        width: 105px;
+    }
+    
+    .quien-soy a i {
+        font-size: 1rem;
+    }
+
+    .modal {
+        max-width: 90%;
+    }
+    
+    .modalSobreMi {
+        padding: .5rem;
+    }
+    
+    .texto-modal p {
+        margin-bottom: .8rem;
+        font-size: .8rem;
+    }
+
+    .habilidades h2, .proyectos h2, .contacto h2{
+        font-size: 1rem;
+    }
+    
+    .habilidades > p, .proyectos > p, .contacto > p {
+        font-size: .8rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .grid-habilidades {
+        width: 90%;
+        gap: 4rem;
+        margin-top: 20px;
+    }
+    
+    .imagen-grid {
+        width: 60px;
+    }
+
+    .texto-habilidades {
+        width: 200px;
+        margin-left: -100px;
+    }
+
+    .texto-habilidades p {
+        font-size: .6rem;
+    }
+
+    .proyectos {
+        padding-bottom: 300px;
+    }
+
+    .proyecto {
+        height: 70%;
+        margin-top: 20px;
+    }
+    
+    .proyecto-menu {
+        height: 7%;
+        overflow: hidden;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .3rem;
+        padding: 0 5px;
+    }
+
+    .proyecto-contenido {
+        height: 93%;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .proyecto-contenido-imagen {
+        padding-right: 0;
+        overflow: hidden;
+        flex-basis: 60%;
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: .5rem;
+    }
+
+    .multimedia-proyecto {
+        width: 100%;
+    }
+
+    .proyecto-contenido-descripcion {
+        padding-left: 0;
+        flex-basis: 40%;
+    }
+
+    .links-proyecto a {
+        height: 20px;
+    }
+
+    .links-proyecto a i {
+        font-size: .6rem;
+    }
+    
+    .links-proyecto a span {
+        font-size: .6rem;
+    }
+
+    .proyecto-contenido-descripcion h2 {
+        font-size: 1rem;
+    }
+
+    .proyecto-contenido-descripcion p {
+        font-size: .6rem;
+    }
+    
+    .tecnologias-proyecto i {
+        font-size: 1.5rem;
+    }
+
+    .formulario {
+        margin-top: 20px;
+    }
+
+    .formulario input[type="email"], .formulario input[type="text"], .formulario textarea{
+        padding: .3rem;
+        font-size: .8rem;
+    }
+
+    .formulario input[type="submit"] {
+        padding: .3rem;
+        font-size: .8rem;
+    }
+
+    #asunto-error, #email-error {
+        font-size: .7rem;
+    }
+    
+    #mensaje-error {
+        font-size: .7rem;
+    }
+
+    .correcto {
+        width: 90%;
+        padding: .3rem;
+        font-size: .8rem;
+    }
+    
+    .error_email {
+        width: 90%;
+        padding: .3rem;
+        font-size: .8rem;
+    }
+    
+    .rrss_footer a i {
+        font-size: 1.2rem;
+    }
+
+    .footer p {
+        font-size: .8rem;
+    }
+    
+    .flecha-subir {
+        bottom: 50px;
+        right: 50px;
+    }
+    
+    .flecha-subir i {
+        font-size: 2rem;
+    }
+}
