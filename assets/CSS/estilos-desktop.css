@@ -5,7 +5,7 @@
 :root {
     --color1: #112236; /* menú */
     --color2: #436280; /* hover menú */
-    --color3: #dbe4ed; /* tipografía y fondo*/
+    --color3: white; /* tipografía y fondo*/
     --color5: #c32530; /* botones y logo */
 }
 
