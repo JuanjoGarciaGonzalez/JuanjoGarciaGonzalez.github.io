@@ -345,9 +345,8 @@ strong {
 }
 
 .titulo-habilidades {
-    color: var(--color1);
+    color: var(--color2);
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .texto-habilidades {
@@ -422,7 +421,6 @@ strong {
 .proyecto-menu {
     width: 100%;
     height: 50px;
-    /* border: 2px solid var(--color1); */
 }
 
 .proyecto-menu ul {
@@ -441,9 +439,17 @@ strong {
     justify-content: flex-start;
     align-items: center;
     font-size: 1rem;
-    /* font-weight: bold; */
     cursor: pointer;
     text-transform: uppercase;
+    border-top: 1px solid var(--color1);
+}
+
+.proyecto-menu ul li:first-of-type {
+    border-left: 1px solid var(--color1);
+}
+
+.proyecto-menu ul li:last-of-type {
+    border-right: 1px solid var(--color1);
 }
 
 .proyecto-menu ul li:hover {
@@ -460,7 +466,7 @@ strong {
 
 .proyecto-contenido {
     width: 100%;
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -533,15 +539,17 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid var(--color3);
-    border-bottom: 2px solid var(--color3);
-    border-right: 2px solid var(--color3);
-    transition: color .15s ease-in-out;
+    border-top: 1px solid var(--color3);
+    border-bottom: 1px solid var(--color3);
+    border-right: 1px solid var(--color3);
+    transition: background-color .15s ease-in-out;
 }
 
 .links-proyecto a span:hover {
-    color: var(--color2);
-    transition: color .15s ease-in-out;
+    background-color: var(--color3);
+    color: var(--color1);
+    transition: background-color .15s ease-in-out;
+    font-weight: 600;
 }
 
 .proyecto-contenido-descripcion {
@@ -583,11 +591,11 @@ strong {
 
 .tecnologias-proyecto span {
     font-size: 1rem;
-    color: var(--color1);
-    background-color: var(--color3);
+    color: var(--color3);
+    background-color: var(--color5);
     border-radius: 15px;
     padding: 3px 15px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* CONTACTO */
@@ -619,25 +627,46 @@ strong {
 }
 
 .campo {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.campo label {
+    font-size: .8rem;
+    padding: 3px 10px;
+    color: var(--color1);
+    border-top: 1px solid var(--color1);
+    border-left: 1px solid var(--color1);
+    border-right: 1px solid var(--color1);
 }
 
 .formulario input[type="email"], .formulario input[type="text"], .formulario textarea{
-    border: 2px solid var(--color1);
+    border: 1px solid var(--color1);
     width: 100%;
     background-color: white;
-    color: var(--color2);
+    color: var(--color1);
     padding: .5rem;
     font-size: 1rem;
     text-align: left;
     margin: 0;
     text-transform: none;
     font-weight: normal;
+    transition: all .2s ease;
 }
 
-.formulario input[type="email"]::placeholder, .formulario input[type="text"]::placeholder, .formulario textarea::placeholder {
-    color: var(--color1);
+.formulario input[type="email"]:hover , .formulario input[type="text"]:hover , .formulario textarea:hover {
+    box-shadow: inset 0 0 0 1px var(--color1);
+    transition: all .2s ease;
+}
+
+.formulario input[type="email"]:focus , .formulario input[type="text"]:focus , .formulario textarea:focus {
+    box-shadow: inset 0 0 0 1px var(--color1);
+    outline: none;
+    transition: all .2s ease;
 }
 
 textarea {
@@ -650,52 +679,48 @@ textarea {
 }
 
 .formulario input[type="submit"] {
-    color: var(--color5);
-    border: 2px solid var(--color5)!important;
+    width: 100%;
+    color: var(--color3);
+    background-color: var(--color1);
     padding: .5rem;
     font-size: 1rem;
     margin: 0 auto;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
-    transition: background-color .15s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .formulario input[type="submit"]:hover {
-    color: var(--color3);
     background-color: var(--color5);
-    transition: background-color .15s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active{
-    -webkit-text-fill-color: var(--color2) !important;
+    -webkit-text-fill-color: var(--color1) !important;
 }
 
-#asunto-error, #email-error {
+#asunto-error, #email-error, #mensaje-error {
     color: red;
     font-size: .9rem;
-    font-weight: bold;
     text-align: left;
     background-color: transparent;
     width: 100%;
     position: absolute;
-    bottom: -20px;
+    bottom: -22px;
     left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .3rem;
 }
 
-#mensaje-error {
+#asunto-error i, #email-error i, #mensaje-error i{
+    font-size: .8rem;
     color: red;
-    font-size: .9rem;
-    font-weight: bold;
-    text-align: left;
-    background-color: transparent;
-    width: 100%;
-    position: absolute;
-    bottom: -14px;
-    left: 0;
 }
 /* FOOTER */
 .footer {

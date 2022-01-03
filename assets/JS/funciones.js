@@ -178,16 +178,16 @@ $(".formulario").validate({
     },
     messages: {
         email: {
-            required: "El email es requerido",
-            formatoEmail: "Formato de email no válido",
-            email: "Formato de email no válido",
+            required: "<i class='fas fa-exclamation-circle'></i> El email es requerido",
+            formatoEmail: "<i class='fas fa-exclamation-circle'></i> Formato de email no válido",
+            email: "<i class='fas fa-exclamation-circle'></i> Formato de email no válido",
         },
         asunto: {
-            required: "El asunto es requerido",
-            maxlength: "El asunto no puede exceder los 32 caracteres",
+            required: "<i class='fas fa-exclamation-circle'></i> El asunto es requerido",
+            maxlength: "<i class='fas fa-exclamation-circle'></i> El asunto no puede exceder los 32 caracteres",
         },
         mensaje: {
-            required: "El mensaje es requerido",
+            required: "<i class='fas fa-exclamation-circle'></i> El mensaje es requerido",
         }
     },
 
@@ -232,3 +232,26 @@ function ocultarMenu() {
 
 }
 
+
+// COLOREAR LABEL EN EL FOCUS DE LOS INPUTS
+const inputs = $(".input")
+const labels = $(".label")
+
+inputs.focus(colorearLabel)
+inputs.blur(descolorearLabel)
+
+function colorearLabel() {
+    let input = $(this)
+    let id = input.parent().attr("id")
+    $("#" + id + " label").css("background-color", "#112236")
+    $("#" + id + " label").css("color", "white")
+    $("#" + id + " label").css("transition", "all .1s ease")
+}
+
+function descolorearLabel() {
+    let input = $(this)
+    let id = input.parent().attr("id")
+    $("#" + id + " label").css("background-color", "white")
+    $("#" + id + " label").css("color", "#112236")
+    $("#" + id + " label").css("transition", "all .1s ease")
+}

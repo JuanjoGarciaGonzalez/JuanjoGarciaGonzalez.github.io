@@ -129,10 +129,15 @@
         padding: 0 10px;
     }
 
+    .proyecto-contenido {
+        height: 350px;
+    }
+
     .links-proyecto {
         flex-direction: column;
         justify-content: center;
         align-items: flex-end;
+        gap: .5rem;
     }
 
     .links-proyecto a i {

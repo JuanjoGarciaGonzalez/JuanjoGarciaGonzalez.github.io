@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="assets/CSS/estilos-mobile.css">
     <!-- FUNCIONES PROPIAS -->
     <script src="assets/JS/funciones.js" defer></script>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/Images/favicon-16x16.png">
 </head>
 <body>
     <!-- MENÚ -->
@@ -239,14 +243,17 @@
             <h2>Contacto</h2>
             <p>Hazme llegar un email a juadrigarciagonzalez@gmail.com</p>
             <form action="assets/PHP/email.php" class="formulario" method="post">
-                <div class="campo">
-                    <input type="email" name="email" placeholder="Dirección de correo electrónico" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de correo electrónico'">
+                <div class="campo" id="uno">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" class="input">
                 </div>
-                <div class="campo">
-                    <input type="text" name="asunto" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Asunto'"> 
+                <div class="campo" id="dos">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto" class="input"> 
                 </div>
-                <div class="campo">
-                    <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" ></textarea>
+                <div class="campo" id="tres">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" cols="30" rows="10" id="mensaje" class="input"></textarea>
                 </div>
                 <div class="submit">
                     <input type="submit" value="Enviar">

@@ -2,15 +2,28 @@
     "proyectos": [
 
       {
-        "nombre": "PC SERVICES",
+        "nombre": "Space Tourism Website",
         "descripcion": {
-            "uno": "Simula una landing page de una empresa de Desarrollo Web. Proyecto front-end realizado en clase a partir de una plantilla de Bootstrap Studio.",
-            "dos": "Personalización, modales, tooltips y validación del formulario. También es responsive."
+            "uno": "Web de turismo espacial que consta de varias páginas dónde podrás informarte si quieres viajar al espacio.",
+            "dos": "Proyecto realizado por mi cuenta. Incorpora Ajax con un archivo JSON para mostrar información de forma asíncrona. Además es responsive con media queries."
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>"],
-        "video": "assets/Videos/PCSERVICES.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/PCSERVICES",
-        "website": "https://pcservices.herokuapp.com/"
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>"],
+        "video": "assets/Videos/webturismoespacial.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/webturismoespacial",
+        "website": "https://webturismoespacial.herokuapp.com/"
+      },
+
+      
+      {
+        "nombre": "Q&A Harry Potter",
+        "descripcion": {
+            "uno": "Juego para Desktop de preguntas y respuestas con temática HP. Podrás elegir un avatar y un usuario, responder a unas preguntas con música asociada a cada película y un ranking de puntuación.",
+            "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>PHP</span>", "<span>MySQL</span>"],
+        "video": "assets/Videos/q&aharrypotter.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/q-aharrypotter",
+        "website": "https://q-aharrypotter.herokuapp.com/"
       },
 
       {
@@ -23,30 +36,6 @@
         "video": "assets/Videos/calculadora.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/calculadora",
         "website": "https://calculadora-juanjo.herokuapp.com/"
-      },
-
-      {
-        "nombre": "Space Tourism Website",
-        "descripcion": {
-            "uno": "Web de turismo espacial que consta de varias páginas dónde podrás informarte si quieres viajar al espacio.",
-            "dos": "Proyecto realizado por mi cuenta. Incorpora Ajax con un archivo JSON para mostrar información de forma asíncrona. Además es responsive con media queries."
-        },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>"],
-        "video": "assets/Videos/webturismoespacial.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/webturismoespacial",
-        "website": "https://webturismoespacial.herokuapp.com/"
-      },
-
-      {
-        "nombre": "Porfolio",
-        "descripcion": {
-            "uno": "Web en la que estás ahora mismo. Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
-            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON), JQuery y PHP. Es responsive."
-        },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>PHP</span>"],
-        "video": "assets/Videos/porfolio.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
-        "website": "https://juanjogarciagonzalezporfolio.herokuapp.com/"
       },
 
       {
@@ -70,19 +59,31 @@
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>Bootstrap</span>", "<span>PHP</span>", "<span>MySQL</span>"],
         "video": "assets/Videos/agendaclientes.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
-        "website": "https://agendaclientes.herokuapp.com/"
+        "website": "https://proyectomodulo2.000webhostapp.com/PHP/Juanjo_examen_php/"
       },
 
       {
-        "nombre": "Q&A Harry Potter",
+        "nombre": "PC SERVICES",
         "descripcion": {
-            "uno": "Juego para Desktop de preguntas y respuestas con temática HP. Podrás elegir un avatar y un usuario, responder a unas preguntas con música asociada a cada película y un ranking de puntuación.",
-            "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
+            "uno": "Simula una landing page de una empresa de Desarrollo Web. Proyecto front-end realizado en clase a partir de una plantilla de Bootstrap Studio.",
+            "dos": "Personalización, modales, tooltips y validación del formulario. También es responsive."
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>PHP</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/q&aharrypotter.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/q-aharrypotter",
-        "website": "https://q-aharrypotter.herokuapp.com/"
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>"],
+        "video": "assets/Videos/PCSERVICES.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/PCSERVICES",
+        "website": "https://pcservices.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Porfolio",
+        "descripcion": {
+            "uno": "Web en la que estás ahora mismo. Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
+            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON), JQuery y PHP. Es responsive."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>PHP</span>"],
+        "video": "assets/Videos/porfolio.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
+        "website": "https://juanjogarciagonzalezporfolio.herokuapp.com/"
       }
 
     ]

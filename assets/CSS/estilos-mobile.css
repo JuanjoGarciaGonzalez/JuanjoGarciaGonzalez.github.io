@@ -155,8 +155,12 @@
         flex-basis: 40%;
     }
 
+    .links-proyecto {
+        gap: .5rem;
+    }
+
     .links-proyecto a {
-        height: 20px;
+        height: 22px;
     }
 
     .links-proyecto a i {
@@ -175,8 +179,8 @@
         font-size: .6rem;
     }
     
-    .tecnologias-proyecto i {
-        font-size: 1.5rem;
+    .tecnologias-proyecto span {
+        border-radius: 12px;
     }
 
     .formulario {
@@ -193,12 +197,12 @@
         font-size: .8rem;
     }
 
-    #asunto-error, #email-error {
+    #asunto-error, #email-error, #mensaje-error {
         font-size: .7rem;
     }
     
-    #mensaje-error {
-        font-size: .7rem;
+    #asunto-error i, #email-error i, #mensaje-error i{
+        font-size: .6rem;
     }
 
     .correcto {
