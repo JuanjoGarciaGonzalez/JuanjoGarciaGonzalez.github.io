@@ -67,6 +67,15 @@
     .modalSobreMi {
         padding: .5rem;
     }
+
+    .imagen-modal {
+        width: 100%;
+    }
+
+    .imagen-modal img {
+        width: 70%;
+        margin: 0 auto;
+    }
     
     .texto-modal p {
         margin-bottom: .8rem;
