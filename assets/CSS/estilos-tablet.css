@@ -8,15 +8,15 @@
 
 @media screen and (max-width: 1270px){
     .logo i {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .logo .nombre {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .logo .apellido {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .navegacion ul li{
@@ -28,6 +28,10 @@
     }
 
     .proyecto-menu ul li {
+        font-size: .8rem;
+    }
+
+    .links-proyecto a span {
         font-size: .8rem;
     }
 }
@@ -91,7 +95,7 @@
     }
 
     .quien-soy h1 {
-        margin-top: 30%;
+        margin-top: 20%;
         margin-left: 5%;
         font-size: 3rem;
     }
@@ -125,6 +129,12 @@
         padding: 0 10px;
     }
 
+    .links-proyecto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
     .links-proyecto a i {
         font-size: 1rem;
     }
@@ -141,9 +151,10 @@
     .proyecto-contenido-descripcion p {
         font-size: .8rem;
     }
-    
-    .tecnologias-proyecto i {
-        font-size: 2rem;
+
+    .tecnologias-proyecto span {
+        font-size: .8rem;
+        padding: 2px 5px;
     }
 
     .formulario {

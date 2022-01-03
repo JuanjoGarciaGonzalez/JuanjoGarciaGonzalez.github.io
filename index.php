@@ -69,7 +69,7 @@
                 <span>Lasarte-Oria (Gipuzkoa)</span>
             </div>
             <h1>¡Hola!<br>Me llamo Juanjo<br> y soy Desarrollador Web</h1>
-            <p>He realizado este porfolio desde 0 con el fin de mostrar mis proyectos y habilidades para conseguir llegar a las empresas. Siéntete libre de navegar en esta web y de contactárme si lo deseas.</p>
+            <p>He realizado este porfolio desde 0 con el fin de mostrar mis proyectos y habilidades para conseguir llegar a las empresas. Siéntete libre de navegar en esta web y de contactarme si lo deseas.</p>
             <a href="#modalSobreMi" rel="modal:open" id="mas-sobre-mi"><i class="fas fa-info-circle"></i> Más sobre mí</a>
             <div id="modalSobreMi" class="modal">
                 <div class="modalSobreMi">
@@ -77,7 +77,7 @@
                         <img src="assets/Images/perfil.png" alt="Foto de perfil">
                     </div>
                     <div class="texto-modal">
-                        <p style="color: #436280; background-color: #dbe4ed;">Vivo en Lasarte-Oria (San Sebastián), tengo 22 años y he estudiado un certificado de profesionalidad de <strong>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</strong>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <strong>SISTEMAS MICROINFORMÁTICO Y REDES</strong> dónde me adentré en el mundo de los ordenadores.</p>
+                        <p style="color: #436280; background-color: #dbe4ed;">Vivo en Lasarte-Oria (San Sebastián), tengo 22 años y he estudiado un certificado de profesionalidad de <strong>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</strong>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <strong>SISTEMAS MICROINFORMÁTICOS Y REDES</strong> dónde me adentré en el mundo de los ordenadores.</p>
     
                         <p style="color: #436280; background-color: #dbe4ed">Me gustaría conseguir mi primer trabajo de desarrollador web e ir aprendiendo poco a poco más en profundidad este mundo maravilloso y extenso.</p>
                     </div>
@@ -93,6 +93,7 @@
             <div class="grid-habilidades">
                 <div class="imagen-grid" id="1">
                     <img src="assets/Images/html.png" alt="Logo HTML">
+                    <span class="titulo-habilidades">HTML</span>
                     <div class="texto-habilidades">
                         <p>Primera tecnología que aprendí. Me siento bastante cómodo trabajando en HTML, aplicando semántica y generando la estructura de las páginas web.</p>
                     </div>
@@ -100,6 +101,7 @@
 
                 <div class="imagen-grid" id="2">
                     <img src="assets/Images/css.png" alt="Logo CSS">
+                    <span class="titulo-habilidades">CSS</span>
                     <div class="texto-habilidades">
                         <p>Uso Flexbox y Grid para posicionar, estilos modernos y animaciones.</p>
                     </div>
@@ -107,6 +109,7 @@
 
                 <div class="imagen-grid" id="3">
                     <img src="assets/Images/js.png" alt="Logo JS">
+                    <span class="titulo-habilidades">JavaScript</span>
                     <div class="texto-habilidades">
                         <p>Mi primer lenguaje de programación. Capturar elementos, eventos, funciones... Y, por supuesto, ajax.</p>
                     </div>
@@ -114,6 +117,7 @@
 
                 <div class="imagen-grid" id="4">
                     <img src="assets/Images/bootstrap.png" alt="Logo Bootstrap">
+                    <span class="titulo-habilidades">Bootstrap</span>
                     <div class="texto-habilidades">
                         <p>Uso esporádico para layouts simples o componentes.</p>
                     </div>
@@ -122,6 +126,7 @@
 
                 <div class="imagen-grid" id="5">
                     <img src="assets/Images/jquery.png" alt="Logo JQuery">
+                    <span class="titulo-habilidades">JQuery</span>
                     <div class="texto-habilidades">
                         <p>He realizado varios proyectos con esta librería y me siento cómodo trabajando con ella o combinándola con JS.</p>
                     </div>
@@ -129,6 +134,7 @@
 
                 <div class="imagen-grid" id="6">
                     <img src="assets/Images/php.png" alt="Logo PHP">
+                    <span class="titulo-habilidades">PHP</span>
                     <div class="texto-habilidades">
                         <p>Aprendí back-end con este lenguaje. Tratar datos de formularios, validación, cruds...</p>
                     </div>
@@ -136,6 +142,7 @@
 
                 <div class="imagen-grid" id="7">
                     <img src="assets/Images/laravel.png" alt="Logo Laravel">
+                    <span class="titulo-habilidades">Laravel</span>
                     <div class="texto-habilidades">
                         <p>He aprendido a hacer cruds con Laravel y a manejar el MVC con soltura.</p>
                     </div>
@@ -143,6 +150,7 @@
 
                 <div class="imagen-grid" id="8">
                     <img src="assets/Images/sql.png" alt="Logo SQL">
+                    <span class="titulo-habilidades">MySQL</span>
                     <div class="texto-habilidades">
                         <p>Comandos esenciales, relaciones, gestión de BBDD y uso en la terminal.</p>
                     </div>
@@ -150,6 +158,7 @@
 
                 <div class="imagen-grid">
                     <img src="assets/Images/git.png" alt="Logo Git">
+                    <span class="titulo-habilidades">GIT</span>
                     <div class="texto-habilidades">
                         <p>Controlo las versiones de mis proyectos y me facilita bastante la gestión de mis archivos.</p>
                     </div>
@@ -157,6 +166,7 @@
 
                 <div class="imagen-grid">
                     <img src="assets/Images/github.png" alt="Logo GitHub">
+                    <span class="titulo-habilidades">GitHub</span>
                     <div class="texto-habilidades">
                         <p>Aquí subo todos los proyectos que tienen importancia para mí.</p>
                     </div>
@@ -164,13 +174,15 @@
 
                 <div class="imagen-grid">
                     <img src="assets/Images/xampp.png" alt="Logo Xampp">
+                    <span class="titulo-habilidades">Xampp</span>
                     <div class="texto-habilidades">
                         <p>Es la suite de servicios locales que más he usado.</p>
                     </div>
                 </div>
 
                 <div class="imagen-grid">
-                    <img src="assets/Images/laragon.png" alt="Logo Laragon">
+                    <img src="assets/Images/laragon.jpg" alt="Logo Laragon">
+                    <span class="titulo-habilidades">Laragon</span>
                     <div class="texto-habilidades">
                         <p>Esta suite la uso sobretodo para proyectos Laravel.</p>
                     </div>
@@ -197,8 +209,8 @@
                         </div>
                         
                         <div class="links-proyecto">
-                            <a href="" class="github" target="_blank"><i class="fab fa-github"></i><span>Ir al repositorio de GitHub</span></a>
-                            <a href="" class="website" target="_blank"><i class="fas fa-link"></i><span>Ir a la website</span></a>
+                            <a href="" class="github" target="_blank"><i class="fab fa-github"></i><span>Ver repositorio de GitHub</span></a>
+                            <a href="" class="website" target="_blank"><i class="fas fa-link"></i><span>Ver website</span></a>
                         </div>
                     </div>
 
