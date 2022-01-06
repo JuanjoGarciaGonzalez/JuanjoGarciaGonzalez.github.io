@@ -100,6 +100,10 @@
         bottom: -1px;
     }
 
+    .quien-soy {
+        min-height: -webkit-fill-available;
+    }
+    
     .quien-soy-contenido {
         width: 95%;
         margin-left: 5%;
