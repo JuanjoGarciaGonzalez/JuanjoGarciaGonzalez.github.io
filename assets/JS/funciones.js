@@ -87,6 +87,7 @@ function cambiarActiva() {
 
 //AJAX PROYECTOS
 const lista_menu = $(".proyecto-menu ul")
+const lista_menu_select = $("#proyecto-menu-item")
 const video = $(".video")
 const github = $(".github")
 const website = $(".website")
@@ -106,7 +107,11 @@ function primeraPeticion(json) {
     objeto_json = json;
     for (let i = 0; i < json.proyectos.length; i++) {
         if(i == 0) {
-            lista_menu.html('<li class="elementos-menu-proyectos activa" id="' + i + '">' + json.proyectos[i].nombre +  '</li>')
+            if($(window).width() <= 425) {
+                lista_menu_select.html(lista_menu_select.html()+'<option selected id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')  
+            }else {
+                lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos activa" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
+            }
             video.attr("src", json.proyectos[i].video)
             github.attr("href", json.proyectos[i].github)
             website.attr("href", json.proyectos[i].website)
@@ -118,21 +123,44 @@ function primeraPeticion(json) {
                 tecnologias_proyecto.html(tecnologias_proyecto.html() + iconos[i])
             }
         }else {
-            lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos" id="' + i + '">' + json.proyectos[i].nombre +  '</li>')
+            if($(window).width() <= 425) {
+                lista_menu_select.html(lista_menu_select.html()+'<option id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')
+            }else {
+                lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos" id="' + i + '">' + json.proyectos[i].nombre +  '</li>')
+            }
         }
         
     }
 
-    const items_menu = $(".proyecto-menu ul li")
-    items_menu.click(segundaPeticion)
+    if($(window).width() <= 425) {
+        lista_menu_select.change(segundaPeticion)
+    }else {
+        const items_menu = $(".proyecto-menu ul li")
+        items_menu.click(segundaPeticion)
+    }
+    
 }
 
 function segundaPeticion() {
-    let id_elemento = $(this).attr('id');
-    lista_menu.html("")
+    let id_elemento
+    if($(window).width() <= 425) {
+        id_elemento = $('#proyecto-menu-item option:selected').attr('id')
+        lista_menu_select.html('')
+    }
+    else {
+        id_elemento = $(this).attr('id')
+        lista_menu.html("")
+    }
+
     for (let i = 0; i < objeto_json.proyectos.length; i++) {
         if(i == id_elemento) {
-            lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos activa" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
+            if($(window).width() <= 425) {
+                lista_menu_select.html(lista_menu_select.html()+'<option selected id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')
+            }else {
+                lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos activa" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
+            }
+
+            
             video.attr("src", objeto_json.proyectos[i].video)
             github.attr("href", objeto_json.proyectos[i].github)
             website.attr("href", objeto_json.proyectos[i].website)
@@ -145,13 +173,22 @@ function segundaPeticion() {
                 tecnologias_proyecto.html(tecnologias_proyecto.html() + iconos[i])
             }
         }else {
-            lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
+            if($(window).width() <= 425) {
+                lista_menu_select.html(lista_menu_select.html()+'<option id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')
+            }
+            else {
+                lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
+            }
         }
         
     }
 
-    const items_menu = $(".proyecto-menu ul li")
-    items_menu.click(segundaPeticion)
+    if($(window).width() <= 425) {
+        lista_menu_select.change(segundaPeticion)
+    }else {
+        const items_menu = $(".proyecto-menu ul li")
+        items_menu.click(segundaPeticion)
+    }
 }
 
 // VALIDACIÓN FORMULARIO
@@ -224,7 +261,7 @@ function ocultarMenu() {
         menu.css("transition", "all .3s ease")
     }
     if($(window).width() <= 425) {
-        menu.css("left", "-50%")
+        menu.css("left", "-100%")
         hamburguesa.css("display", "flex")
         cerrar_menu.css("display", "none")
         menu.css("transition", "all .3s ease")
@@ -255,3 +292,23 @@ function descolorearLabel() {
     $("#" + id + " label").css("color", "#112236")
     $("#" + id + " label").css("transition", "all .1s ease")
 }
+
+// ANIMACION ELEMENTO BAJAR
+const letras_bajar = $(".bajar")
+
+function animacionBajar() {
+    letras_bajar.animate({'bottom': '22%'}, {
+        duration: 500,
+        complete: function() {
+            letras_bajar.animate({bottom: '20%'}, {
+                duration: 500, 
+                complete: animacionBajar})
+        }
+    })
+};
+
+animacionBajar()
+
+// MENU DESPLEGABLE PROYECTOS
+
+

@@ -95,20 +95,13 @@
     }
 
     .quien-soy h1 {
-        margin-top: 20%;
-        margin-left: 5%;
         font-size: 3rem;
     }
 
     .quien-soy p {
         width: 80%;
         margin-top: 10px;
-        margin-left: 5%;
         margin-bottom: 10px;
-    }
-    
-    .quien-soy a {
-        margin-left: 5%;
     }
 
     .texto-habilidades {

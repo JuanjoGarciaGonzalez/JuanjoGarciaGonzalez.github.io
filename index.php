@@ -30,7 +30,6 @@
     <div class="menu">
 
         <div class="logo">
-            <!-- <img src="assets/Images/logo.png" alt="Logo"> -->
             <i class="fas fa-code"></i>
             <p class="nombre">Juanjo García</p>
             <p class="apellido">González</p>
@@ -72,9 +71,18 @@
                 <i class="fas fa-globe-europe"></i>
                 <span>Lasarte-Oria (Gipuzkoa)</span>
             </div>
-            <h1>¡Hola!<br>Me llamo Juanjo<br> y soy Desarrollador Web</h1>
-            <p>He realizado este porfolio desde 0 con el fin de mostrar mis proyectos y habilidades para conseguir llegar a las empresas. Siéntete libre de navegar en esta web y de contactarme si lo deseas.</p>
-            <a href="#modalSobreMi" rel="modal:open" id="mas-sobre-mi"><i class="fas fa-info-circle"></i> Más sobre mí</a>
+
+            <div class="bajar">
+                <span>scroll</span>
+                <i class="fas fa-long-arrow-alt-down"></i>
+            </div>
+
+            <div class="quien-soy-contenido">
+                <h1>¡Hola!<br>Me llamo Juanjo<br> y soy Desarrollador Web</h1>
+                <p>He realizado este porfolio desde 0 con el fin de mostrar mis proyectos y habilidades para conseguir llegar a las empresas. Siéntete libre de navegar en esta web y de contactarme si lo deseas.</p>
+                <a href="#modalSobreMi" rel="modal:open" id="mas-sobre-mi"><i class="fas fa-info-circle"></i> Más sobre mí</a>
+            </div>
+
             <div id="modalSobreMi" class="modal">
                 <div class="modalSobreMi">
                     <div class="imagen-modal">
@@ -204,12 +212,18 @@
                     <ul>
                         
                     </ul>
+
+                    <div class="content-select">
+                        <select name="proyecto-menu-item" id="proyecto-menu-item"></select>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    
                 </div>
 
                 <div class="proyecto-contenido">
                     <div class="proyecto-contenido-imagen">
                         <div class="multimedia-proyecto">
-                            <video width="100%" height="auto" class="video" autoplay loop muted src="assets/Videos/PCSERVICES.webm"></video>
+                            <video width="100%" height="auto" class="video" autoplay loop muted src=""></video>
                         </div>
                         
                         <div class="links-proyecto">
@@ -241,7 +255,7 @@
         <section class="contacto" id="contacto">
             <div style="height: 150px; overflow: hidden;" class="sbg-contacto-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #112236;"></path></svg></div>
             <h2>Contacto</h2>
-            <p>Hazme llegar un email a juadrigarciagonzalez@gmail.com</p>
+            <p>Hazme llegar un email</p>
             <form action="assets/PHP/email.php" class="formulario" method="post">
                 <div class="campo" id="uno">
                     <label for="email">Correo electrónico</label>

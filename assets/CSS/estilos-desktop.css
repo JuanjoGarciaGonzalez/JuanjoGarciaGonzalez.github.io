@@ -157,12 +157,23 @@
     border-right: 2px solid var(--color1);
     /* border-bottom: 2px solid var(--color1); */
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quien-soy-contenido {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%;
 }
 
 .quien-soy h1 {
     color: var(--color1);
-    margin-top: 10%;
-    margin-left: 10%;
     font-size: 4rem;
     line-height: 1.2;
 }
@@ -171,7 +182,6 @@
     width: 50%;
     color: var(--color2);
     margin-top: 10px;
-    margin-left: 10%;
     margin-bottom: 10px;
     font-size: 1rem;
     text-align: justify;
@@ -179,25 +189,19 @@
 
 .quien-soy a {
     color: var(--color5);
-    margin-left: 10%;
     font-size: 1rem;
     text-transform: uppercase;
     width: 130px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     text-decoration: none;
-    position: relative;
+    gap: .5rem;
 }
 
 .quien-soy a i {
     color: var(--color5);
-    font-size: 1.5rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: 0;
+    font-size: 1rem;
 }
 
 .modal {
@@ -225,7 +229,7 @@
     flex-basis: 30%;
     margin: 0 auto;
     text-align: center;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -233,7 +237,7 @@
 }
 
 .imagen-modal img {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -284,6 +288,32 @@ strong {
 
 .ubicacion span {
     color: var(--color1);
+}
+
+.bajar {
+    position: absolute;
+    right: 10px;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bajar span {
+    font-size: 1.1rem;
+    color: var(--color1);
+    text-transform: lowercase;
+    transform: rotate(90deg);
+    font-weight: bold;
+    writing-mode: vertical;
+    text-orientation: mixed;
+}
+
+.bajar i {
+    font-size: 1.1rem;
+    color: var(--color1);
+    margin-top: 1rem;
 }
 
 /* HABILIDADES */
@@ -421,6 +451,10 @@ strong {
 .proyecto-menu {
     width: 100%;
     height: 50px;
+}
+
+.content-select {
+    display: none;
 }
 
 .proyecto-menu ul {
@@ -627,7 +661,7 @@ strong {
 }
 
 .campo {
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.5rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -705,7 +739,7 @@ input:-webkit-autofill:active{
 
 #asunto-error, #email-error, #mensaje-error {
     color: red;
-    font-size: .9rem;
+    font-size: .8rem;
     text-align: left;
     background-color: transparent;
     width: 100%;
@@ -719,7 +753,7 @@ input:-webkit-autofill:active{
 }
 
 #asunto-error i, #email-error i, #mensaje-error i{
-    font-size: .8rem;
+    font-size: .7rem;
     color: red;
 }
 /* FOOTER */

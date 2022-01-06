@@ -1,7 +1,53 @@
+/* paleta de colores */
+:root {
+    --color1: #112236; /* menú */
+    --color2: #436280; /* hover menú */
+    --color3: white; /* tipografía y fondo*/
+    --color5: #c32530; /* botones y logo */
+}
+
 @media screen and (max-width: 425px) {
     .menu {
-        width: 50%;
-        left: -50%;
+        width: 100%;
+        left: -100%;
+    }
+
+    .logo {
+        height: 30%;
+        padding-top: 20%;
+    }
+
+    .logo i {
+        font-size: 1.5rem;
+    }
+
+    .logo .nombre {
+        font-size: 1.5rem;
+    }
+
+    .logo .apellido {
+        font-size: 1.2rem;
+    }
+
+    .navegacion ul li{
+        font-size: 1.5rem;
+    }
+
+    .rrss {
+        height: 30%;
+        padding-bottom: 20%;
+    }
+
+    .rrss a i {
+        font-size: 2rem;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .8rem;
+    }
+
+    .links-proyecto a span {
+        font-size: .8rem;
     }
 
     .ubicacion {
@@ -14,14 +60,15 @@
 
     .cerrar_menu {
         top: 3%;
+        right: 5%;
     }
 
     .hamburguesa i {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .cerrar_menu i {
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: var(--color3);
     }
 
@@ -39,7 +86,8 @@
         right: -50px;
         left: -50px;
         margin: 0; */
-        height: 90px !important;
+        height: 120px !important;
+        top: -1px;
     }
     
     .svg-quien-soy-2, .svg-habilidades-2, .svg-proyectos-2, .svg-contacto-2 {
@@ -48,16 +96,22 @@
         left: -50px;
         right: -50px;
         margin: 0; */
-        height: 90px !important;
+        height: 120px !important;
+        bottom: -1px;
+    }
+
+    .quien-soy-contenido {
+        width: 95%;
+        margin-left: 5%;
     }
     
     .quien-soy h1 {
-        margin-top: 40%;
         font-size: 2rem;
     }
 
     .quien-soy p {
         font-size: .9rem;
+        width: 95%;
     }
 
     .modal {
@@ -82,6 +136,16 @@
         font-size: .8rem;
     }
 
+    .bajar span {
+        font-size: 1rem;
+    }
+    
+    .bajar i {
+        font-size: 1rem;
+        color: var(--color1);
+        margin-top: .9;
+    }
+
     .habilidades h2, .proyectos h2, .contacto h2{
         font-size: 1.3rem;
     }
@@ -94,17 +158,18 @@
 
     .grid-habilidades {
         width: 90%;
-        gap: 4rem;
+        gap: 3rem;
         margin-top: 20px;
     }
     
     .imagen-grid {
-        width: 90px;
+        width: 60px;
     }
 
     .texto-habilidades {
-        width: 150px;
-        margin-left: -75px;
+        width: 130px;
+        margin-left: -65px;
+        padding: 5px;
     }
 
     .texto-habilidades p {
@@ -122,12 +187,60 @@
     
     .proyecto-menu {
         height: 7%;
-        overflow: hidden;
+        width: 100%;
     }
 
-    .proyecto-menu ul li {
-        font-size: .5rem;
-        padding: 0 5px;
+    .proyecto-menu ul {
+        display: none;
+    }
+
+    .content-select select{
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 0 10px;
+    }
+
+    .content-select select::-ms-expand {
+        display: none;
+    }
+
+    .content-select {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color1);
+        color: white;
+        font-size: .8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        border-bottom: 2px solid white;
+        padding: 7px 10px;
+    }
+
+    .content-select select{
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        height: 100%;
+        outline: 0; 
+        border: 0;
+        border-radius: 0;
+        background: var(--color1);
+        color: white;
+        font-size: .8rem;
+        position: relative;
+        transition: all 0.25s ease;
+    }
+
+    .content-select select option {
+        color: var(--color1);
+        background-color: white;
+    }
+
+    .content-select i {
+        padding: 0 10px;
     }
 
     .proyecto-contenido {
@@ -176,11 +289,16 @@
     }
 
     .proyecto-contenido-descripcion p {
-        font-size: .6rem;
+        font-size: .8rem;
+    }
+
+    .tecnologias-proyecto {
+        gap: 5px;
     }
     
     .tecnologias-proyecto span {
         border-radius: 12px;
+        font-size: .6rem;
     }
 
     .formulario {
@@ -216,15 +334,26 @@
         padding: .3rem;
         font-size: .8rem;
     }
+
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .rrss_footer {
+        width: 55%;
+    }
     
     .rrss_footer a i {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .footer p {
-        font-size: .8rem;
+        font-size: 1rem;
+        text-align: center;
+        width: 90%;
     }
-    
+
     .flecha-subir {
         bottom: 50px;
         right: 50px;
