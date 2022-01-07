@@ -89,7 +89,7 @@
                         <img src="assets/Images/perfil.png" alt="Foto de perfil">
                     </div>
                     <div class="texto-modal">
-                        <p style="color: #436280;">Vivo en Lasarte-Oria (San Sebastián), tengo 22 años y he estudiado un certificado de profesionalidad de <strong>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</strong>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <strong>SISTEMAS MICROINFORMÁTICOS Y REDES</strong> dónde me adentré en el mundo de los ordenadores.</p>
+                        <p style="color: #436280;">Vivo en Lasarte-Oria (San Sebastián), tengo 22 años y he estudiado un certificado de profesionalidad de <span>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</span>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <span>SISTEMAS MICROINFORMÁTICOS Y REDES</span> dónde me adentré en el mundo de los ordenadores.</p>
     
                         <p style="color: #436280;">Me gustaría conseguir mi primer trabajo de desarrollador web e ir aprendiendo poco a poco más en profundidad este mundo maravilloso y extenso.</p>
                     </div>
@@ -227,8 +227,8 @@
                         </div>
                         
                         <div class="links-proyecto">
-                            <a href="" class="github" target="_blank"><i class="fab fa-github"></i><span>Ver repositorio de GitHub</span></a>
-                            <a href="" class="website" target="_blank"><i class="fas fa-link"></i><span>Ver website</span></a>
+                            <a href="" class="github" target="_blank"><i class="fab fa-github"></i><span>Repositorio de GitHub</span></a>
+                            <a href="" class="website" target="_blank"><i class="fas fa-link"></i><span>Website</span></a>
                         </div>
                     </div>
 

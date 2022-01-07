@@ -6,7 +6,7 @@
     --color1: #112236; /* menú */
     --color2: #436280; /* hover menú */
     --color3: #ffffff; /* tipografía y fondo*/
-    --color5: #c32530; /* botones y logo */
+    --color5: #c10416; /* botones y logo */
 }
 
 /* GENERALES */
@@ -249,10 +249,11 @@
 .texto-modal p {
     margin-bottom: 1rem;
     text-align: justify;
-
+    color: var(--color2) !important;
 }
 
-strong {
+.texto-modal span {
+    font-style: italic;
     color: var(--color2);
 }
 
@@ -365,7 +366,6 @@ strong {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    cursor: pointer;
     gap: .5rem;
 }
 
