@@ -267,7 +267,7 @@
                 </div>
                 <div class="campo" id="tres">
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" cols="30" rows="10" id="mensaje" class="input"></textarea>
+                    <textarea name="mensaje" cols="30" rows="5" id="mensaje" class="input"></textarea>
                 </div>
                 <div class="submit">
                     <input type="submit" value="Enviar">

@@ -646,12 +646,18 @@
 }
 
 .formulario {
-    width: 40%;
+    width: 50%;
     margin: 50px auto 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:    "correo asunto"
+                            "mensaje mensaje"
+                            "boton boton";
+    gap: 2rem;
 }
 
 .campo {
-    margin-bottom: 1.5rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -666,6 +672,22 @@
     border-top: 1px solid var(--color1);
     border-left: 1px solid var(--color1);
     border-right: 1px solid var(--color1);
+}
+
+#uno {
+    grid-area: correo;
+}
+
+#dos {
+    grid-area: asunto;
+}
+
+#tres {
+    grid-area: mensaje;
+}
+
+.submit {
+    grid-area: boton;
 }
 
 .formulario input[type="email"], .formulario input[type="text"], .formulario textarea{

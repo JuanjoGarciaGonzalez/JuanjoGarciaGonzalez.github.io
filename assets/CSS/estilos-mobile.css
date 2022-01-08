@@ -300,6 +300,13 @@
 
     .formulario {
         margin-top: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:    "correo"
+                                "asunto"
+                                "mensaje"
+                                "boton";
+        gap: 1.5rem;
     }
 
     .formulario input[type="email"], .formulario input[type="text"], .formulario textarea{
