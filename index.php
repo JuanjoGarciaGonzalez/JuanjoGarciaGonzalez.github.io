@@ -107,7 +107,7 @@
                     <img src="assets/Images/html.png" alt="Logo HTML">
                     <span class="titulo-habilidades">HTML</span>
                     <div class="texto-habilidades">
-                        <p>Primera tecnología que aprendí. Me siento bastante cómodo trabajando en HTML, aplicando semántica y generando la estructura de las páginas web.</p>
+                        <p>Me siento bastante cómodo trabajando en HTML, aplicando semántica y generando la estructura de las páginas web.</p>
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@
                     <img src="assets/Images/js.png" alt="Logo JS">
                     <span class="titulo-habilidades">JavaScript</span>
                     <div class="texto-habilidades">
-                        <p>Mi primer lenguaje de programación. Capturar elementos, eventos, funciones... Y, por supuesto, ajax.</p>
+                        <p>Mi primer lenguaje de programación. Capturar elementos, eventos, funciones, ajax...</p>
                     </div>
                 </div>
 
@@ -256,7 +256,7 @@
             <div style="height: 150px; overflow: hidden;" class="sbg-contacto-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #112236;"></path></svg></div>
             <h2>Contacto</h2>
             <p>Hazme llegar un email</p>
-            <form action="assets/PHP/email.php" class="formulario" method="post">
+            <form action="mailto:juadrigarciagonzalez@gmail.com" class="formulario" method="get">
                 <div class="campo" id="uno">
                     <label for="email">Correo electrónico</label>
                     <input type="email" name="email" id="email" class="input">
@@ -288,7 +288,7 @@
                 <a href="https://github.com/JuanjoGarciaGonzalez" title="Mi Github" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
-            <p>Realizado por Juanjo García Gonzalez &copy; Copyright <span class="contenedor-ano"></span></p>
+            <p>Realizado por Juanjo García González &copy; Copyright <span class="contenedor-ano"></span></p>
         </footer>
 
         <!-- FLECHA SUBIR -->

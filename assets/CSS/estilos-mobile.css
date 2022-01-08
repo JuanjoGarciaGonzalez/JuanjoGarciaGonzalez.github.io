@@ -81,21 +81,11 @@
     }
 
     .svg-quien-soy-1, .svg-habilidades-1, .svg-proyectos-1, .svg-contacto-1{
-        /* position: absolute;
-        top: 0;
-        right: -50px;
-        left: -50px;
-        margin: 0; */
         height: 120px !important;
         top: -1px;
     }
     
     .svg-quien-soy-2, .svg-habilidades-2, .svg-proyectos-2, .svg-contacto-2 {
-        /* position: absolute;
-        bottom: 0;
-        left: -50px;
-        right: -50px;
-        margin: 0; */
         height: 120px !important;
         bottom: -1px;
     }
@@ -169,8 +159,8 @@
     }
 
     .texto-habilidades {
-        width: 130px;
-        margin-left: -65px;
+        width: 100px;
+        margin-left: -50px;
         padding: 5px;
     }
 
@@ -183,7 +173,7 @@
     }
 
     .proyecto {
-        height: 70vh;
+        height: auto;
         margin-top: 20px;
     }
     
@@ -255,9 +245,10 @@
     .proyecto-contenido-imagen {
         padding-right: 0;
         overflow: hidden;
-        flex-basis: 60%;
+        flex-basis: 20%;
         width: 100%;
         flex-direction: column;
+        justify-content: flex-end;
         gap: .5rem;
     }
 
@@ -267,7 +258,8 @@
 
     .proyecto-contenido-descripcion {
         padding-left: 0;
-        flex-basis: 40%;
+        flex-basis: 80%;
+        justify-content: flex-start;
     }
 
     .links-proyecto {
@@ -288,10 +280,12 @@
 
     .proyecto-contenido-descripcion h2 {
         font-size: 1rem;
+        margin-bottom: .5rem;
     }
 
     .proyecto-contenido-descripcion p {
         font-size: .8rem;
+        margin-bottom: .5rem;
     }
 
     .tecnologias-proyecto {
