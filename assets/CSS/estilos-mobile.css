@@ -130,13 +130,13 @@
     }
 
     .bajar span {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     
     .bajar i {
-        font-size: 1rem;
+        font-size: .8rem;
         color: var(--color1);
-        margin-top: .9;
+        margin-top: .7rem;
     }
 
     .habilidades h2, .proyectos h2, .contacto h2{
