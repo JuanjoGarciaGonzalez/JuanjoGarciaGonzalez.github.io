@@ -647,7 +647,7 @@
 
 .formulario {
     width: 50%;
-    margin: 50px auto 20px auto;
+    margin: 50px auto 50px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
@@ -768,6 +768,11 @@ input:-webkit-autofill:active{
 #asunto-error i, #email-error i, #mensaje-error i{
     font-size: .7rem;
     color: red;
+}
+
+.mailme {
+    color: var(--color1);
+    font-size: 2rem;
 }
 /* FOOTER */
 .footer {

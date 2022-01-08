@@ -69,7 +69,7 @@
             <!-- <div style="height: 150px; overflow: hidden;" class="svg-quien-soy-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M64.61,-155.41 C-35.83,44.91 394.74,210.70 586.62,52.80 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #112236;"></path></svg></div> -->
             <div class="ubicacion">
                 <i class="fas fa-globe-europe"></i>
-                <span>Lasarte-Oria (Gipuzkoa)</span>
+                <span>San Sebastián (Gipuzkoa)</span>
             </div>
 
             <div class="bajar">
@@ -89,7 +89,7 @@
                         <img src="assets/Images/perfil.png" alt="Foto de perfil">
                     </div>
                     <div class="texto-modal">
-                        <p style="color: #436280;">Vivo en Lasarte-Oria (San Sebastián), tengo 22 años y he estudiado un certificado de profesionalidad de <span>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</span>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <span>SISTEMAS MICROINFORMÁTICOS Y REDES</span> dónde me adentré en el mundo de los ordenadores.</p>
+                        <p style="color: #436280;">Vivo en San Sebastián, tengo 22 años y he estudiado un certificado de profesionalidad de <span>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</span>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <span>SISTEMAS MICROINFORMÁTICOS Y REDES</span> dónde me adentré en el mundo de los ordenadores.</p>
     
                         <p style="color: #436280;">Me gustaría conseguir mi primer trabajo de desarrollador web e ir aprendiendo poco a poco más en profundidad este mundo maravilloso y extenso.</p>
                     </div>
@@ -274,6 +274,8 @@
                 </div>
                 
             </form>
+
+            <a class="mailme" href="mailto:juadrigarciagonzalez@gmail.com?Subject=Porfolio">Email</a>
             
             
             <!-- <div class="correcto">
