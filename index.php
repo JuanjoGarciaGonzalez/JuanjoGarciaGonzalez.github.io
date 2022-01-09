@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio - Juanjo García González</title>
+    <title>Juanjo García González</title>
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- JQUERY -->
@@ -66,7 +66,6 @@
     <!-- CONTENIDO -->
     <main class="contenido">
         <section class="quien-soy" id="quien-soy">
-            <!-- <div style="height: 150px; overflow: hidden;" class="svg-quien-soy-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M64.61,-155.41 C-35.83,44.91 394.74,210.70 586.62,52.80 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #112236;"></path></svg></div> -->
             <div class="ubicacion">
                 <i class="fas fa-globe-europe"></i>
                 <span>San Sebastián (Gipuzkoa)</span>
@@ -255,42 +254,31 @@
         <section class="contacto" id="contacto">
             <div style="height: 150px; overflow: hidden;" class="sbg-contacto-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #112236;"></path></svg></div>
             <h2>Contacto</h2>
-            <p>Hazme llegar un email</p>
-            <form action="mailto:juadrigarciagonzalez@gmail.com" class="formulario" method="get">
-                <div class="campo" id="uno">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" name="email" id="email" class="input">
-                </div>
-                <div class="campo" id="dos">
-                    <label for="asunto">Asunto</label>
-                    <input type="text" name="asunto" id="asunto" class="input"> 
-                </div>
-                <div class="campo" id="tres">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" cols="30" rows="5" id="mensaje" class="input"></textarea>
-                </div>
-                <div class="submit">
-                    <input type="submit" value="Enviar">
-                </div>
-                
-            </form>
+            <p>Contáctame por estas vías</p>
 
-            <a class="mailme" href="mailto:juadrigarciagonzalez@gmail.com?Subject=Porfolio">Email</a>
+            <div class="contacto-items">
+                <div class="contacto-item" id="uno">
+                    <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Porfolio" target="_blank"><i class="fas fa-envelope"></i><span>Email</span></a>
+                </div>
+
+                <div class="contacto-item" id="dos">
+                    <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" target="_blank"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+                </div>
+
+                <div class="contacto-item" id="tres">
+                    <a href="https://github.com/JuanjoGarciaGonzalez" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+                </div>
+
+                <div class="contacto-item" id="cuatro">
+                    <a href="https://twitter.com/JuanjoGarciaG" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+                </div>
+            </div>
             
-            
-            <!-- <div class="correcto">
-                ¡Email enviado correctamente!
-            </div> -->
         </section>
 
         <!-- FOOTER -->
         <footer class="footer">
-            <div class="rrss_footer">
-                <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/JuanjoGarciaGonzalez" title="Mi Github" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-            </div>
-            <p>Realizado por Juanjo García González &copy; Copyright <span class="contenedor-ano"></span></p>
+            <p>Realizado por Juanjo García González &copy; <span class="contenedor-ano"></span></p>
         </footer>
 
         <!-- FLECHA SUBIR -->

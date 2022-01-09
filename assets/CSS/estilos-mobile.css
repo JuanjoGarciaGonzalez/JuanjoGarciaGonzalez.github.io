@@ -298,58 +298,23 @@
         font-size: .6rem;
     }
 
-    .formulario {
-        margin-top: 20px;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas:    "correo"
-                                "asunto"
-                                "mensaje"
-                                "boton";
-        gap: 1.5rem;
-    }
-
-    .formulario input[type="email"], .formulario input[type="text"], .formulario textarea{
-        padding: .3rem;
-        font-size: .8rem;
-    }
-
-    .formulario input[type="submit"] {
-        padding: .3rem;
-        font-size: .8rem;
-    }
-
-    #asunto-error, #email-error, #mensaje-error {
-        font-size: .7rem;
+    .contacto-item {
+        width: 40%;
     }
     
-    #asunto-error i, #email-error i, #mensaje-error i{
-        font-size: .6rem;
-    }
-
-    .correcto {
-        width: 90%;
-        padding: .3rem;
-        font-size: .8rem;
+    .contacto-item a i{
+        color: var(--color1);
+        font-size: 2.5rem;
     }
     
-    .error_email {
-        width: 90%;
-        padding: .3rem;
-        font-size: .8rem;
+    .contacto-item a span {
+        font-size: 1rem;
+        color: var(--color1);
     }
 
     .footer {
         height: auto;
         padding: 20px 0;
-    }
-
-    .rrss_footer {
-        width: 55%;
-    }
-    
-    .rrss_footer a i {
-        font-size: 2rem;
     }
 
     .footer p {

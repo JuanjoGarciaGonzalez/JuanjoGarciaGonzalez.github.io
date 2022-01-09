@@ -78,9 +78,9 @@
         "nombre": "Porfolio",
         "descripcion": {
             "uno": "Web en la que estás ahora mismo ¡Espero que te guste! Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
-            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON), JQuery y PHP. Es responsive."
+            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON) y JQuery. Es responsive."
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>PHP</span>", "<span>Responsive</span>"],
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>Responsive</span>"],
         "video": "assets/Videos/porfolio_wvj6kIPP.mkv",
         "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
         "website": "https://juanjogarciagonzalez.herokuapp.com/"

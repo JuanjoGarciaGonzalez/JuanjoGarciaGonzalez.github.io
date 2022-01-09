@@ -191,46 +191,6 @@ function segundaPeticion() {
     }
 }
 
-// VALIDACIÓN FORMULARIO
-$.validator.addMethod("formatoEmail", function (value, element) {
-    var pattern = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
-    return this.optional(element) || pattern.test(value);
-});
-
-$(".formulario").validate({
-    onkeyup: false,
-    rules: {
-        email: {
-            required: true,
-            formatoEmail: true,
-            email: true,
-        },
-        asunto: {
-            required: true,
-            maxlength: 50,
-        },
-        mensaje: {
-            required: true,
-        }
-    },
-    messages: {
-        email: {
-            required: "<i class='fas fa-exclamation-circle'></i> El email es requerido",
-            formatoEmail: "<i class='fas fa-exclamation-circle'></i> Formato de email no válido",
-            email: "<i class='fas fa-exclamation-circle'></i> Formato de email no válido",
-        },
-        asunto: {
-            required: "<i class='fas fa-exclamation-circle'></i> El asunto es requerido",
-            maxlength: "<i class='fas fa-exclamation-circle'></i> El asunto no puede exceder los 32 caracteres",
-        },
-        mensaje: {
-            required: "<i class='fas fa-exclamation-circle'></i> El mensaje es requerido",
-        }
-    },
-
-    errorElement : 'span'
-});
-
 //DESPLEGAR MENÚ EN RESPONSIVE
 const hamburguesa = $(".hamburguesa")
 const menu = $(".menu")
@@ -269,30 +229,6 @@ function ocultarMenu() {
 
 }
 
-
-// COLOREAR LABEL EN EL FOCUS DE LOS INPUTS
-const inputs = $(".input")
-const labels = $(".label")
-
-inputs.focus(colorearLabel)
-inputs.blur(descolorearLabel)
-
-function colorearLabel() {
-    let input = $(this)
-    let id = input.parent().attr("id")
-    $("#" + id + " label").css("background-color", "#112236")
-    $("#" + id + " label").css("color", "white")
-    $("#" + id + " label").css("transition", "all .1s ease")
-}
-
-function descolorearLabel() {
-    let input = $(this)
-    let id = input.parent().attr("id")
-    $("#" + id + " label").css("background-color", "white")
-    $("#" + id + " label").css("color", "#112236")
-    $("#" + id + " label").css("transition", "all .1s ease")
-}
-
 // ANIMACION ELEMENTO BAJAR
 const letras_bajar = $(".bajar")
 
@@ -309,6 +245,21 @@ function animacionBajar() {
 
 animacionBajar()
 
-// MENU DESPLEGABLE PROYECTOS
+// HOVER CONTACTO ITEMS
+const contacto_item = $(".contacto-item")
 
+contacto_item.mouseover(function() {
+    id_item = $(this).attr("id")
+    $("#" + id_item + " a i").css("color", "#c10416")
+    $("#" + id_item + " a span").css("color", "#c10416")
+    $("#" + id_item + " a i").css("transition", "all .15s ease")
+    $("#" + id_item + " a span").css("transition", "all .15s ease")
+})
 
+contacto_item.mouseout(function() {
+    id_item = $(this).attr("id")
+    $("#" + id_item + " a i").css("color", "#112236")
+    $("#" + id_item + " a span").css("color", "#112236")
+    $("#" + id_item + " a i").css("transition", "all .15s ease")
+    $("#" + id_item + " a span").css("transition", "all .15s ease")
+})

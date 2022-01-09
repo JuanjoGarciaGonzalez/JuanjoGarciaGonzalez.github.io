@@ -1,5 +1,0 @@
-Cambiar que solo se vea el tooltip cuando se haga hover en la imagen
-
-Cambiar los iconos de los proyectos por texto
-
-Cambiar los botones de ver el repositorio y ver website a una linea

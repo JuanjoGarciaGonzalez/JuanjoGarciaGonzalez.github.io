@@ -1,4 +1,4 @@
-/* tyipografía */
+/* tipografía */
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 /* paleta de colores */
@@ -69,7 +69,6 @@
 .navegacion ul {
     width: 100%;
     height: 100%;
-    /* border-top: 1px solid var(--color3); */
 }
 
 .navegacion ul li{
@@ -82,7 +81,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border-bottom: 1px solid var(--color3); */
 }
 
 .navegacion ul li a {
@@ -143,7 +141,6 @@
 
 /* CONTENIDO */
 .contenido {
-    /* height: 100vh; */
     width: 88%;
     margin-left: 12%;
     overflow: hidden;
@@ -155,7 +152,6 @@
     height: 100vh;
     border-top: 2px solid var(--color1);
     border-right: 2px solid var(--color1);
-    /* border-bottom: 2px solid var(--color1); */
     position: relative;
     display: flex;
     justify-content: center;
@@ -190,7 +186,6 @@
 .quien-soy a {
     color: var(--color5);
     font-size: 1rem;
-    text-transform: uppercase;
     width: 130px;
     display: flex;
     justify-content: flex-start;
@@ -320,9 +315,7 @@
 /* HABILIDADES */
 .habilidades {
     width: 100%;
-    /* border-top: 2px solid var(--color1); */
     border-right: 2px solid var(--color1);
-    /* border-bottom: 2px solid var(--color1); */
     position: relative;
     padding-bottom: 200px;
 }
@@ -365,8 +358,7 @@
 }
 
 .titulo-habilidades {
-    color: var(--color2);
-    font-weight: bold;
+    color: var(--color1);
 }
 
 .texto-habilidades {
@@ -412,9 +404,7 @@
 .proyectos {
     width: 100%;
     height: auto;
-    /* border-top: 2px solid var(--color1); */
     border-right: 2px solid var(--color1);
-    /* border-bottom: 2px solid var(--color1); */
     color: var(--color1);
     position: relative;
     padding-bottom: 200px;
@@ -563,17 +553,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid var(--color3);
-    border-bottom: 1px solid var(--color3);
-    border-right: 1px solid var(--color3);
     transition: background-color .15s ease-in-out;
+    position: relative;
 }
 
-.links-proyecto a span:hover {
-    background-color: var(--color3);
-    color: var(--color1);
-    transition: background-color .15s ease-in-out;
-    font-weight: 600;
+.links-proyecto a span:before,
+.links-proyecto a span:after {
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+box-sizing: border-box;
+transform: scale(0);
+transition: 0.5s;
+}
+.links-proyecto a span:before {
+border-bottom: 1px solid var(--color3);
+border-left: 1px solid var(--color3);
+transform-origin: 0 100%;
+}
+.links-proyecto a span:after {
+border-top: 1px solid var(--color3);
+border-right: 1px solid var(--color3);
+transform-origin: 100% 0%;
+}
+.links-proyecto a span:hover:after,
+.links-proyecto a span:hover:before {
+transform: scale(1);
 }
 
 .proyecto-contenido-descripcion {
@@ -619,15 +627,12 @@
     background-color: var(--color5);
     border-radius: 15px;
     padding: 3px 15px;
-    /* font-weight: bold; */
 }
 
 /* CONTACTO */
 .contacto {
     width: 100%;
-    /* border-top: 2px solid var(--color1); */
     border-right: 2px solid var(--color1);
-    /* border-bottom: 2px solid var(--color1); */
     color: var(--color1);
     position: relative;
     padding-bottom: 20px;
@@ -645,135 +650,72 @@
     text-align: center;
 }
 
-.formulario {
-    width: 50%;
+.contacto-items {
+    width: 80%;
+    height: auto;
     margin: 50px auto 50px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:    "correo asunto"
-                            "mensaje mensaje"
-                            "boton boton";
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%
 }
 
-.campo {
-    position: relative;
+.contacto-item {
+    width: 20%;
+    height: 100%;
+}
+
+.contacto-item a {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-}
-
-.campo label {
-    font-size: .8rem;
-    padding: 3px 10px;
-    color: var(--color1);
-    border-top: 1px solid var(--color1);
-    border-left: 1px solid var(--color1);
-    border-right: 1px solid var(--color1);
-}
-
-#uno {
-    grid-area: correo;
-}
-
-#dos {
-    grid-area: asunto;
-}
-
-#tres {
-    grid-area: mensaje;
-}
-
-.submit {
-    grid-area: boton;
-}
-
-.formulario input[type="email"], .formulario input[type="text"], .formulario textarea{
-    border: 1px solid var(--color1);
-    width: 100%;
-    background-color: white;
-    color: var(--color1);
-    padding: .5rem;
-    font-size: 1rem;
-    text-align: left;
-    margin: 0;
-    text-transform: none;
-    font-weight: normal;
-    transition: all .2s ease;
-}
-
-.formulario input[type="email"]:hover , .formulario input[type="text"]:hover , .formulario textarea:hover {
-    box-shadow: inset 0 0 0 1px var(--color1);
-    transition: all .2s ease;
-}
-
-.formulario input[type="email"]:focus , .formulario input[type="text"]:focus , .formulario textarea:focus {
-    box-shadow: inset 0 0 0 1px var(--color1);
-    outline: none;
-    transition: all .2s ease;
-}
-
-textarea {
-    resize: none;
-}
-
-.submit {
-    width: 100%;
-    text-align: center;
-}
-
-.formulario input[type="submit"] {
-    width: 100%;
-    color: var(--color3);
-    background-color: var(--color1);
-    padding: .5rem;
-    font-size: 1rem;
-    margin: 0 auto;
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all .15s ease-in-out;
-}
-
-.formulario input[type="submit"]:hover {
-    background-color: var(--color5);
-    transition: all .15s ease-in-out;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
-    -webkit-text-fill-color: var(--color1) !important;
-    transition: background-color 5000s ease-in-out 0s;
-}
-
-#asunto-error, #email-error, #mensaje-error {
-    color: red;
-    font-size: .8rem;
-    text-align: left;
-    background-color: transparent;
-    width: 100%;
-    position: absolute;
-    bottom: -22px;
-    left: 0;
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-    gap: .3rem;
+    text-decoration: none;
+    gap: .25rem;
+    padding: 1rem 0;
+    position: relative;
 }
 
-#asunto-error i, #email-error i, #mensaje-error i{
-    font-size: .7rem;
-    color: red;
-}
-
-.mailme {
+.contacto-item a i{
     color: var(--color1);
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
+
+.contacto-item a span {
+    font-size: 1rem;
+    color: var(--color1);
+}
+
+.contacto-item a:before,
+.contacto-item a:after {
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+box-sizing: border-box;
+transform: scale(0);
+transition: 0.5s;
+}
+.contacto-item a:before {
+border-bottom: 2px solid var(--color5);
+border-left: 2px solid var(--color5);
+transform-origin: 0 100%;
+}
+.contacto-item a:after {
+border-top: 2px solid var(--color5);
+border-right: 2px solid var(--color5);
+transform-origin: 100% 0%;
+}
+.contacto-item a:hover:after,
+.contacto-item a:hover:before {
+transform: scale(1);
+}
+
 /* FOOTER */
 .footer {
     height: 10vh;
@@ -783,10 +725,6 @@ input:-webkit-autofill:active{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.rrss_footer {
-    display: none;
 }
 
 .footer p {
