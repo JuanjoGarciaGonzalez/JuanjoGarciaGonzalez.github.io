@@ -652,11 +652,10 @@ transform: scale(1);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5%
 }
 
 .contacto-item {
-    width: 20%;
+    width: 25%;
     height: 100%;
 }
 

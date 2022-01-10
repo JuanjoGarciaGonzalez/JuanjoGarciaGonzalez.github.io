@@ -310,8 +310,12 @@
         font-size: .6rem;
     }
 
+    .contacto-items {
+        width: 90%;
+    }
+
     .contacto-item {
-        width: 40%;
+        width: 33.3%;
     }
     
     .contacto-item a i{

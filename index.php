@@ -46,8 +46,8 @@
         </nav>
 
         <div class="rrss">
+            <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Porfolio" target="_blank"><i class="fas fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/JuanjoGarciaGonzalez" title="Mi Github" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
 
@@ -263,10 +263,6 @@
 
                 <div class="contacto-item" id="dos">
                     <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" target="_blank"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
-                </div>
-
-                <div class="contacto-item" id="tres">
-                    <a href="https://github.com/JuanjoGarciaGonzalez" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
                 </div>
 
                 <div class="contacto-item" id="cuatro">
