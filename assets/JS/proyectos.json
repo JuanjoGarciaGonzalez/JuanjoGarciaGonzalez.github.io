@@ -8,7 +8,7 @@
             "dos": "Proyecto realizado por mi cuenta. Incorpora Ajax con un archivo JSON para mostrar información de forma asíncrona. Además es responsive con media queries."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/webturismoespacial_vnaS9aaf.mkv",
+        "video": "assets/Videos/webm/webturismoespacial.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/webturismoespacial",
         "website": "https://webturismoespacial.herokuapp.com/"
       },
@@ -21,7 +21,7 @@
             "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>PHP</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/qaharrypotter_7i0SJ4hO.mkv",
+        "video": "assets/Videos/webm/qaharrypotter.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/q-aharrypotter",
         "website": "https://harry-web.000webhostapp.com/harry-web/"
       },
@@ -33,7 +33,7 @@
             "dos": "Usé CSS Grid y Flexbox para posicionar las teclas además de JavaScript para la funcionalidad y el tema oscuro/claro. No es responsive."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>"],
-        "video": "assets/Videos/calculadora.webm",
+        "video": "assets/Videos/webm/calculadora.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/calculadora",
         "website": "https://calculadora-juanjo.herokuapp.com/"
       },
@@ -45,7 +45,7 @@
             "dos": "Proyecto para practicar Laravel, relaciones y el modelo vista controlador. La interfaz está realizada con Bootstrap."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>", "<span>Laravel</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/pasajerosvuelos_2cXFGrMG.mkv",
+        "video": "assets/Videos/webm/pasajerosvuelos.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/pasajerosvuelos",
         "website": "http://pasajerosvuelos.herokuapp.com/"
       },
@@ -57,7 +57,7 @@
             "dos": "Realizado con CSS nativo (y un navbar de Bootstrap) y PHP. Además de SQL y BBDD."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>Bootstrap</span>", "<span>PHP</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/agendaclientes_3Tqpuwr2.mkv",
+        "video": "assets/Videos/webm/agendaclientes.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
         "website": "https://proyectomodulo2.000webhostapp.com/PHP/Juanjo_examen_php/"
       },
@@ -69,7 +69,7 @@
             "dos": "Personalización, modales, tooltips y validación del formulario. También es responsive."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/pcservices_LFiR7er6.mkv",
+        "video": "assets/Videos/webm/pcservices.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/PCSERVICES",
         "website": "https://cursoaplicaciones225juanjo.000webhostapp.com/Proyecto_final_web_Juanjo"
       },
@@ -81,7 +81,7 @@
             "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON) y JQuery. Es responsive."
         },
         "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/porfolio_wvj6kIPP.mkv",
+        "video": "assets/Videos/webm/porfolio.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
         "website": "https://juanjogarciagonzalez.herokuapp.com/"
       }
