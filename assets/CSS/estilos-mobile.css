@@ -30,7 +30,7 @@
     }
 
     .navegacion ul li{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .rrss {
@@ -98,6 +98,11 @@
     .quien-soy h1 {
         font-size: 2rem;
         width: 90%;
+    }
+
+    .emoji-saludo {
+        font-size: 2rem;
+        color: var(--color1);
     }
 
     .quien-soy p {
@@ -269,6 +274,13 @@
 
     .links-proyecto a {
         height: 22px;
+        border: 1px solid var(--color3);
+    }
+
+    .links-proyecto a span:before,
+    .links-proyecto a span:after {
+        width: 0%;
+        height: 0%;
     }
 
     .links-proyecto a i {

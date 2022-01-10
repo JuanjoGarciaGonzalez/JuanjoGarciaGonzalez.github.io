@@ -77,7 +77,7 @@
             </div>
 
             <div class="quien-soy-contenido">
-                <h1>¡Hola!<br>Me llamo Juanjo<br> y soy Desarrollador Web</h1>
+                <h1>¡Hola! <span class="emoji-saludo">&#128075;</span><br>Me llamo Juanjo<br> y soy Desarrollador Web</h1>
                 <p>He realizado este porfolio desde 0 con el fin de mostrar mis proyectos y habilidades para conseguir llegar a las empresas. Siéntete libre de navegar en esta web y de contactarme si lo deseas.</p>
                 <a href="#modalSobreMi" rel="modal:open" id="mas-sobre-mi"><i class="fas fa-info-circle"></i> Más sobre mí</a>
             </div>
@@ -106,7 +106,7 @@
                     <img src="assets/Images/html.png" alt="Logo HTML">
                     <span class="titulo-habilidades">HTML</span>
                     <div class="texto-habilidades">
-                        <p>Me siento bastante cómodo trabajando en HTML, aplicando semántica y generando la estructura de las páginas web.</p>
+                        <p>Me siento bastante cómodo trabajando en HTML, aplicando semántica y generando la estructura</p>
                     </div>
                 </div>
 

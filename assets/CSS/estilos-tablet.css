@@ -60,6 +60,14 @@
         top: 5%;
     }
 
+    .navegacion ul li{
+        font-size: 1.3rem;
+    }
+
+    .rrss a i {
+        font-size: 1.5rem;
+    }
+
     .hamburguesa {
         position: absolute;
         left: 5%;
@@ -124,6 +132,11 @@
         width: 100%;
     }
 
+    .emoji-saludo {
+        font-size: 2rem;
+        color: var(--color1);
+    }
+
     .quien-soy p {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -172,6 +185,16 @@
         justify-content: center;
         align-items: flex-end;
         gap: .5rem;
+    }
+
+    .links-proyecto a {
+        border: 1px solid var(--color3);
+    }
+
+    .links-proyecto a span:before,
+    .links-proyecto a span:after {
+        width: 0%;
+        height: 0%;
     }
 
     .links-proyecto a i {
