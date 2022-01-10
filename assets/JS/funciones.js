@@ -107,7 +107,7 @@ function primeraPeticion(json) {
     objeto_json = json;
     for (let i = 0; i < json.proyectos.length; i++) {
         if(i == 0) {
-            if($(window).width() <= 425) {
+            if($(window).width() <= 550) {
                 lista_menu_select.html(lista_menu_select.html()+'<option selected id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')  
             }else {
                 lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos activa" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
@@ -123,7 +123,7 @@ function primeraPeticion(json) {
                 tecnologias_proyecto.html(tecnologias_proyecto.html() + iconos[i])
             }
         }else {
-            if($(window).width() <= 425) {
+            if($(window).width() <= 550) {
                 lista_menu_select.html(lista_menu_select.html()+'<option id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')
             }else {
                 lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos" id="' + i + '">' + json.proyectos[i].nombre +  '</li>')
@@ -132,7 +132,7 @@ function primeraPeticion(json) {
         
     }
 
-    if($(window).width() <= 425) {
+    if($(window).width() <= 550) {
         lista_menu_select.change(segundaPeticion)
     }else {
         const items_menu = $(".proyecto-menu ul li")
@@ -143,7 +143,7 @@ function primeraPeticion(json) {
 
 function segundaPeticion() {
     let id_elemento
-    if($(window).width() <= 425) {
+    if($(window).width() <= 550) {
         id_elemento = $('#proyecto-menu-item option:selected').attr('id')
         lista_menu_select.html('')
     }
@@ -154,7 +154,7 @@ function segundaPeticion() {
 
     for (let i = 0; i < objeto_json.proyectos.length; i++) {
         if(i == id_elemento) {
-            if($(window).width() <= 425) {
+            if($(window).width() <= 550) {
                 lista_menu_select.html(lista_menu_select.html()+'<option selected id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')
             }else {
                 lista_menu.html(lista_menu.html()+'<li class="elementos-menu-proyectos activa" id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</li>')
@@ -173,7 +173,7 @@ function segundaPeticion() {
                 tecnologias_proyecto.html(tecnologias_proyecto.html() + iconos[i])
             }
         }else {
-            if($(window).width() <= 425) {
+            if($(window).width() <= 550) {
                 lista_menu_select.html(lista_menu_select.html()+'<option id="' + i + '">' + objeto_json.proyectos[i].nombre +  '</option>')
             }
             else {
@@ -183,7 +183,7 @@ function segundaPeticion() {
         
     }
 
-    if($(window).width() <= 425) {
+    if($(window).width() <= 550) {
         lista_menu_select.change(segundaPeticion)
     }else {
         const items_menu = $(".proyecto-menu ul li")
@@ -220,7 +220,7 @@ function ocultarMenu() {
         cerrar_menu.css("display", "none")
         menu.css("transition", "all .3s ease")
     }
-    if($(window).width() <= 425) {
+    if($(window).width() <= 550) {
         menu.css("left", "-100%")
         hamburguesa.css("display", "flex")
         cerrar_menu.css("display", "none")

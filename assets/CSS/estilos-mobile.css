@@ -6,7 +6,7 @@
     --color5: #c10416; /* botones y logo */
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
     .menu {
         width: 100%;
         left: -100%;
