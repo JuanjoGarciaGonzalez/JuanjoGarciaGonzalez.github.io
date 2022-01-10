@@ -46,7 +46,7 @@
         </nav>
 
         <div class="rrss">
-            <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Porfolio" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Contacto porfolio" target="_blank"><i class="fas fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
@@ -258,7 +258,7 @@
 
             <div class="contacto-items">
                 <div class="contacto-item" id="uno">
-                    <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Porfolio" target="_blank"><i class="fas fa-envelope"></i><span>Email</span></a>
+                    <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Contacto porfolio" target="_blank"><i class="fas fa-envelope"></i><span>Email</span></a>
                 </div>
 
                 <div class="contacto-item" id="dos">
