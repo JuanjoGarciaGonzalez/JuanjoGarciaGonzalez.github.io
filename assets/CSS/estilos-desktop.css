@@ -185,7 +185,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .quien-soy a {
@@ -248,7 +248,7 @@
 
 .texto-modal p {
     margin-bottom: 1rem;
-    text-align: justify;
+    text-align: left;
     color: var(--color2) !important;
 }
 
@@ -602,7 +602,7 @@ transform: scale(1);
 
 .proyecto-contenido-descripcion .p p {
     color: var(--color3);
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1rem;
 }
 

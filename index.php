@@ -44,9 +44,9 @@
         </nav>
 
         <div class="rrss">
-            <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Contacto porfolio" target="_blank"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Contacto porfolio" target="_blank" rel=”noreferrer noopener”><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" title="Mi Linkedin" target="_blank" rel=”noreferrer noopener”><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/JuanjoGarciaG" title="Mi Twitter" target="_blank" rel=”noreferrer noopener”><i class="fab fa-twitter"></i></a>
         </div>
 
         <div class="cerrar_menu">
@@ -224,8 +224,8 @@
                         </div>
                         
                         <div class="links-proyecto">
-                            <a href="" class="github" target="_blank"><i class="fab fa-github"></i><span>Repositorio de GitHub</span></a>
-                            <a href="" class="website" target="_blank"><i class="fas fa-link"></i><span>Website</span></a>
+                            <a href="" class="github" target="_blank" rel=”noreferrer noopener”><i class="fab fa-github"></i><span>Repositorio de GitHub</span></a>
+                            <a href="" class="website" target="_blank" rel=”noreferrer noopener”><i class="fas fa-link"></i><span>Website</span></a>
                         </div>
                     </div>
 
@@ -256,15 +256,15 @@
 
             <div class="contacto-items">
                 <div class="contacto-item" id="uno">
-                    <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Contacto porfolio" target="_blank"><i class="fas fa-envelope"></i><span>Email</span></a>
+                    <a href="mailto:juadrigarciagonzalez@gmail.com?Subject=Contacto porfolio" target="_blank" rel=”noreferrer noopener”><i class="fas fa-envelope"></i><span>Email</span></a>
                 </div>
 
                 <div class="contacto-item" id="dos">
-                    <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" target="_blank"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+                    <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" target="_blank" rel=”noreferrer noopener”><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
                 </div>
 
                 <div class="contacto-item" id="cuatro">
-                    <a href="https://twitter.com/JuanjoGarciaG" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+                    <a href="https://twitter.com/JuanjoGarciaG" target="_blank" rel=”noreferrer noopener”><i class="fab fa-twitter"></i><span>Twitter</span></a>
                 </div>
             </div>
             
@@ -272,7 +272,7 @@
 
         <!-- FOOTER -->
         <footer class="footer">
-            <p>Realizado por Juanjo García González &copy; <span class="contenedor-ano"></span></p>
+            <p>Realizado por Juanjo García González · <span class="contenedor-ano"></span></p>
         </footer>
 
         <!-- FLECHA SUBIR -->
