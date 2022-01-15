@@ -125,7 +125,7 @@
     }
 
     .imagen-modal img {
-        width: 30%;
+        width: 50%;
         margin: 0 auto;
     }
     
@@ -152,6 +152,10 @@
         font-size: .8rem;
         width: 90%;
         margin: 0 auto;
+    }
+
+    .habilidades {
+        padding-bottom: 150px;
     }
 
     .grid-habilidades {
@@ -312,6 +316,7 @@
 
     .contacto-items {
         width: 90%;
+        margin: 20px auto 20px auto;
     }
 
     .contacto-item {
