@@ -260,7 +260,7 @@
                 </div>
 
                 <div class="contacto-item" id="dos">
-                    <a href="https://www.linkedin.com/in/juanjo-kora-016a58229/" target="_blank" rel=”noreferrer noopener”><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+                    <a href="https://www.linkedin.com/in/juanjo-garc%C3%ADa-gonz%C3%A1lez-016a58229/" target="_blank" rel=”noreferrer noopener”><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
                 </div>
 
                 <div class="contacto-item" id="cuatro">
