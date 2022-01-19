@@ -2,6 +2,18 @@
     "proyectos": [
 
       {
+        "nombre": "App Tiempo",
+        "descripcion": {
+            "uno": "App para consultar el tiempo en un tu ubicación o en una localización específica. Datos del día y de los próximos 5.",
+            "dos": "Consumiendo la api de openweathermap y usando fetch de JS para hacer peticiones asíncronas. Es responsive."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Responsive</span>"],
+        "video": "assets/Videos/webm/app-tiempo.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/app-tiempo",
+        "website": "https://app-tiempo.herokuapp.com/"
+      },
+
+      {
         "nombre": "Space Tourism Website",
         "descripcion": {
             "uno": "Web de turismo espacial que consta de varias páginas dónde podrás informarte si quieres viajar al espacio.",
@@ -27,18 +39,6 @@
       },
 
       {
-        "nombre": "Calculadora",
-        "descripcion": {
-            "uno": "Calculadora realizada con JavaScript.",
-            "dos": "Usé CSS Grid y Flexbox para posicionar las teclas además de JavaScript para la funcionalidad y el tema oscuro/claro. No es responsive."
-        },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>"],
-        "video": "assets/Videos/webm/calculadora.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/calculadora",
-        "website": "https://calculadora-juanjo.herokuapp.com/"
-      },
-
-      {
         "nombre": "Pasajeros-Vuelos",
         "descripcion": {
             "uno": "App Laravel para crear tickets de vuelos. Puedes crear o eliminar pasajeros/vuelos, y además crear o eliminar tickets.",
@@ -60,18 +60,6 @@
         "video": "assets/Videos/webm/agendaclientes.webm",
         "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
         "website": "https://proyectomodulo2.000webhostapp.com/PHP/Juanjo_examen_php/"
-      },
-
-      {
-        "nombre": "PC SERVICES",
-        "descripcion": {
-            "uno": "Simula una landing page de una empresa de Desarrollo Web. Proyecto front-end realizado en clase a partir de una plantilla de Bootstrap Studio.",
-            "dos": "Personalización, modales, tooltips y validación del formulario. También es responsive."
-        },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/webm/pcservices.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/PCSERVICES",
-        "website": "https://cursoaplicaciones225juanjo.000webhostapp.com/Proyecto_final_web_Juanjo"
       },
 
       {
