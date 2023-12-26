@@ -83,7 +83,7 @@
             <div id="modalSobreMi" class="modal">
                 <div class="modalSobreMi">
                     <div class="imagen-modal">
-                        <img src="assets/Images/perfil.png" alt="Foto de perfil">
+                        <img src="assets/Images/perfil.webp" alt="Foto de perfil">
                     </div>
                     <div class="texto-modal">
                         <p style="color: #436280;">Vivo en San Sebastián, tengo 22 años y he estudiado un certificado de profesionalidad de <span>APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</span>. He aprendido habilidades frontend, backend, despliegue de sitios web, accesibilidad, usabilidad... Además practico bastante por mi cuenta ya que me gusta lo que hago. Antes de esto yo estudié un grado medio de <span>SISTEMAS MICROINFORMÁTICOS Y REDES</span> dónde me adentré en el mundo de los ordenadores.</p>
